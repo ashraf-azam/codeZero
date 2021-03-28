@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "3c75a83ec1296693b6bf54c1b9ecb578"
+build_time: [1616943422, 560889000]
+inputs:
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModel.swift": [1616895837, 225377251]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModelType+ItemPath.swift": [1616895837, 229390397]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModelType.swift": [1616895837, 230530116]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/Changeset.swift": [1616895837, 230025085]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/Diff.swift": [1616895837, 224561749]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/IdentifiableType.swift": [1616895837, 222513521]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/IdentifiableValue.swift": [1616895837, 226580193]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/ItemPath.swift": [1616895837, 227472826]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/Optional+Extensions.swift": [1616895837, 228427233]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/SectionModel.swift": [1616895837, 223369814]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/SectionModelType.swift": [1616895837, 220947854]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Differentiator/Sources/Differentiator/Utilities.swift": [1616895837, 221723023]

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "f0eb10f0e23c75024b45aac20379f176"
+build_time: [1616943451, 427036000]
+inputs:
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxBiBinding/RxBiBinding/Classes/AnyObservableType.swift": [1616895837, 251864927]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxBiBinding/RxBiBinding/Classes/RxChannel.swift": [1616895837, 250834795]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxBiBinding/RxBiBinding/Classes/RxChannelTerminal.swift": [1616895837, 251434019]

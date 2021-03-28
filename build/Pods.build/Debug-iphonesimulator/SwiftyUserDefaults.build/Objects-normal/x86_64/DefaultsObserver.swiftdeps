@@ -1,0 +1,499 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DefaultsDisposable"
+- "DefaultsObserver"
+provides-nominal:
+- "18SwiftyUserDefaults0C10DisposableP"
+- "18SwiftyUserDefaults0C8ObserverC"
+- "18SwiftyUserDefaults0C8ObserverC6UpdateV"
+provides-member:
+- ["18SwiftyUserDefaults0C10DisposableP", ""]
+- ["18SwiftyUserDefaults0C8ObserverC", ""]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "DefaultsDisposable"
+- "DefaultsKey"
+- "DefaultsObserver"
+- "DefaultsSerializable"
+- "IndexSet"
+- "NSKeyValueChange"
+- "NSKeyValueChangeKey"
+- "NSKeyValueObservingOptions"
+- "NSObject"
+- "String"
+- "T"
+- "UInt"
+- "UnsafeMutableRawPointer"
+- "Update"
+- "UserDefaults"
+- "Void"
+- !private "didRemoveObserver"
+- !private "dispose"
+- !private "handler"
+- !private "indexes"
+- !private "isPrior"
+- !private "key"
+- !private "kind"
+- !private "newValue"
+- !private "oldValue"
+- !private "userDefaults"
+depends-member:
+- ["SK", ""]
+- !private ["SK", "indexesKey"]
+- !private ["SK", "kindKey"]
+- !private ["SK", "notificationIsPriorKey"]
+- !private ["s7CVarArgP", "NSKeyValueChange"]
+- !private ["s7CVarArgP", "T"]
+- !private ["s7CVarArgP", "Update"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "didRemoveObserver"]
+- ["s7CVarArgP", "dispose"]
+- !private ["s7CVarArgP", "handler"]
+- !private ["s7CVarArgP", "indexes"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isPrior"]
+- !private ["s7CVarArgP", "key"]
+- !private ["s7CVarArgP", "kind"]
+- !private ["s7CVarArgP", "newValue"]
+- !private ["s7CVarArgP", "oldValue"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "userDefaults"]
+- ["Sl", ""]
+- !private ["Sl", "indexesKey"]
+- !private ["Sl", "kindKey"]
+- !private ["Sl", "notificationIsPriorKey"]
+- !private ["Sl", "subscript"]
+- ["SL", ""]
+- !private ["SL", "indexesKey"]
+- !private ["SL", "kindKey"]
+- !private ["SL", "newKey"]
+- !private ["SL", "notificationIsPriorKey"]
+- !private ["SL", "oldKey"]
+- !private ["s28CustomDebugStringConvertibleP", "NSKeyValueChange"]
+- !private ["s28CustomDebugStringConvertibleP", "T"]
+- !private ["s28CustomDebugStringConvertibleP", "Update"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "didRemoveObserver"]
+- ["s28CustomDebugStringConvertibleP", "dispose"]
+- !private ["s28CustomDebugStringConvertibleP", "handler"]
+- !private ["s28CustomDebugStringConvertibleP", "indexes"]
+- !private ["s28CustomDebugStringConvertibleP", "indexesKey"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isPrior"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- !private ["s28CustomDebugStringConvertibleP", "kind"]
+- !private ["s28CustomDebugStringConvertibleP", "kindKey"]
+- !private ["s28CustomDebugStringConvertibleP", "newValue"]
+- !private ["s28CustomDebugStringConvertibleP", "notificationIsPriorKey"]
+- !private ["s28CustomDebugStringConvertibleP", "oldValue"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "userDefaults"]
+- !private ["s17CustomReflectableP", "indexesKey"]
+- !private ["s17CustomReflectableP", "kindKey"]
+- !private ["s17CustomReflectableP", "notificationIsPriorKey"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "NSKeyValueChange"]
+- !private ["s23CustomStringConvertibleP", "T"]
+- !private ["s23CustomStringConvertibleP", "Update"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "didRemoveObserver"]
+- ["s23CustomStringConvertibleP", "dispose"]
+- !private ["s23CustomStringConvertibleP", "handler"]
+- !private ["s23CustomStringConvertibleP", "indexes"]
+- !private ["s23CustomStringConvertibleP", "indexesKey"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isPrior"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "kind"]
+- !private ["s23CustomStringConvertibleP", "kindKey"]
+- !private ["s23CustomStringConvertibleP", "newValue"]
+- !private ["s23CustomStringConvertibleP", "notificationIsPriorKey"]
+- !private ["s23CustomStringConvertibleP", "oldValue"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userDefaults"]
+- !private ["Se", "indexesKey"]
+- !private ["Se", "kindKey"]
+- !private ["Se", "notificationIsPriorKey"]
+- !private ["Se", "subscript"]
+- !private ["18SwiftyUserDefaults0C6BridgeC", "deserialize"]
+- !private ["18SwiftyUserDefaults0C6BridgeC", "isSerialized"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "NSKeyValueChange"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "T"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "Update"]
+- ["18SwiftyUserDefaults0C10DisposableP", ""]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "didRemoveObserver"]
+- ["18SwiftyUserDefaults0C10DisposableP", "dispose"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "handler"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "indexes"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "isPrior"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "key"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "kind"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "newValue"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "oldValue"]
+- !private ["18SwiftyUserDefaults0C10DisposableP", "userDefaults"]
+- !private ["18SwiftyUserDefaults0C3KeyC", "_key"]
+- !private ["18SwiftyUserDefaults0C3KeyC", "defaultValue"]
+- !private ["18SwiftyUserDefaults0C3KeyC", "key"]
+- ["18SwiftyUserDefaults0C4KeysC", ""]
+- !private ["18SwiftyUserDefaults0C4KeysC", "_key"]
+- !private ["18SwiftyUserDefaults0C4KeysC", "defaultValue"]
+- !private ["18SwiftyUserDefaults0C4KeysC", "key"]
+- ["18SwiftyUserDefaults0C8ObserverC", "Bool"]
+- ["18SwiftyUserDefaults0C8ObserverC", "DefaultsKey"]
+- ["18SwiftyUserDefaults0C8ObserverC", "IndexSet"]
+- ["18SwiftyUserDefaults0C8ObserverC", "NSKeyValueChange"]
+- ["18SwiftyUserDefaults0C8ObserverC", "NSKeyValueChangeKey"]
+- ["18SwiftyUserDefaults0C8ObserverC", "NSKeyValueObservingOptions"]
+- ["18SwiftyUserDefaults0C8ObserverC", "String"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "T"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "UInt"]
+- ["18SwiftyUserDefaults0C8ObserverC", "UnsafeMutableRawPointer"]
+- ["18SwiftyUserDefaults0C8ObserverC", "Update"]
+- ["18SwiftyUserDefaults0C8ObserverC", "UserDefaults"]
+- ["18SwiftyUserDefaults0C8ObserverC", "Void"]
+- ["18SwiftyUserDefaults0C8ObserverC", ""]
+- ["18SwiftyUserDefaults0C8ObserverC", "deinit"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "didRemoveObserver"]
+- ["18SwiftyUserDefaults0C8ObserverC", "dispose"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "handler"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "indexes"]
+- ["18SwiftyUserDefaults0C8ObserverC", "init"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "isPrior"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "key"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "kind"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "newValue"]
+- ["18SwiftyUserDefaults0C8ObserverC", "observeValue"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "oldValue"]
+- !private ["18SwiftyUserDefaults0C8ObserverC", "userDefaults"]
+- ["18SwiftyUserDefaults0C12SerializableP", "T"]
+- !private ["18SwiftyUserDefaults0C12SerializableP", "_defaults"]
+- !private ["18SwiftyUserDefaults0C12SerializableP", "defaults"]
+- !private ["18SwiftyUserDefaults0C12SerializableP", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "indexesKey"]
+- !private ["SE", "kindKey"]
+- !private ["SE", "notificationIsPriorKey"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "NSKeyValueChange"]
+- !private ["SQ", "RawValue"]
+- !private ["SQ", "T"]
+- !private ["SQ", "Update"]
+- ["SQ", ""]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "didRemoveObserver"]
+- ["SQ", "dispose"]
+- !private ["SQ", "handler"]
+- !private ["SQ", "indexes"]
+- !private ["SQ", "indexesKey"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isPrior"]
+- !private ["SQ", "key"]
+- !private ["SQ", "kind"]
+- !private ["SQ", "kindKey"]
+- !private ["SQ", "newKey"]
+- !private ["SQ", "newValue"]
+- !private ["SQ", "notificationIsPriorKey"]
+- !private ["SQ", "oldKey"]
+- !private ["SQ", "oldValue"]
+- !private ["SQ", "removeObserver"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "userDefaults"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", "NSKeyValueChange"]
+- !private ["SH", "RawValue"]
+- !private ["SH", "T"]
+- !private ["SH", "Update"]
+- ["SH", ""]
+- !private ["SH", "addObserver"]
+- !private ["SH", "didRemoveObserver"]
+- ["SH", "dispose"]
+- !private ["SH", "handler"]
+- !private ["SH", "indexes"]
+- !private ["SH", "indexesKey"]
+- !private ["SH", "init"]
+- !private ["SH", "isPrior"]
+- !private ["SH", "key"]
+- !private ["SH", "kind"]
+- !private ["SH", "kindKey"]
+- !private ["SH", "newKey"]
+- !private ["SH", "newValue"]
+- !private ["SH", "notificationIsPriorKey"]
+- !private ["SH", "oldKey"]
+- !private ["SH", "oldValue"]
+- !private ["SH", "removeObserver"]
+- !private ["SH", "subscript"]
+- !private ["SH", "userDefaults"]
+- !private ["SD5IndexV", "indexesKey"]
+- !private ["SD5IndexV", "kindKey"]
+- !private ["SD5IndexV", "newKey"]
+- !private ["SD5IndexV", "notificationIsPriorKey"]
+- !private ["SD5IndexV", "oldKey"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- !private ["So16NSKeyValueChangeV", "RawValue"]
+- !private ["So16NSKeyValueChangeV", "init"]
+- !private ["So19NSKeyValueChangeKeya", "indexesKey"]
+- !private ["So19NSKeyValueChangeKeya", "kindKey"]
+- !private ["So19NSKeyValueChangeKeya", "newKey"]
+- !private ["So19NSKeyValueChangeKeya", "notificationIsPriorKey"]
+- !private ["So19NSKeyValueChangeKeya", "oldKey"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DefaultsKey"]
+- ["So8NSObjectC", "IndexSet"]
+- ["So8NSObjectC", "NSKeyValueChange"]
+- ["So8NSObjectC", "NSKeyValueChangeKey"]
+- ["So8NSObjectC", "NSKeyValueObservingOptions"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "T"]
+- !private ["So8NSObjectC", "UInt"]
+- ["So8NSObjectC", "UnsafeMutableRawPointer"]
+- ["So8NSObjectC", "Update"]
+- ["So8NSObjectC", "UserDefaults"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addObserver"]
+- ["So8NSObjectC", "didRemoveObserver"]
+- ["So8NSObjectC", "dispose"]
+- ["So8NSObjectC", "handler"]
+- !private ["So8NSObjectC", "indexes"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isPrior"]
+- ["So8NSObjectC", "key"]
+- !private ["So8NSObjectC", "kind"]
+- !private ["So8NSObjectC", "newValue"]
+- ["So8NSObjectC", "observeValue"]
+- !private ["So8NSObjectC", "oldValue"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "userDefaults"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "DefaultsKey"]
+- ["So8NSObjectP", "IndexSet"]
+- ["So8NSObjectP", "NSKeyValueChange"]
+- ["So8NSObjectP", "NSKeyValueChangeKey"]
+- ["So8NSObjectP", "NSKeyValueObservingOptions"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "T"]
+- !private ["So8NSObjectP", "UInt"]
+- ["So8NSObjectP", "UnsafeMutableRawPointer"]
+- ["So8NSObjectP", "Update"]
+- ["So8NSObjectP", "UserDefaults"]
+- ["So8NSObjectP", "Void"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addObserver"]
+- ["So8NSObjectP", "deinit"]
+- ["So8NSObjectP", "didRemoveObserver"]
+- ["So8NSObjectP", "dispose"]
+- ["So8NSObjectP", "handler"]
+- !private ["So8NSObjectP", "indexes"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isPrior"]
+- ["So8NSObjectP", "key"]
+- !private ["So8NSObjectP", "kind"]
+- !private ["So8NSObjectP", "newValue"]
+- ["So8NSObjectP", "observeValue"]
+- !private ["So8NSObjectP", "oldValue"]
+- !private ["So8NSObjectP", "removeObserver"]
+- ["So8NSObjectP", "userDefaults"]
+- !private ["Sk", "indexesKey"]
+- !private ["Sk", "kindKey"]
+- !private ["Sk", "notificationIsPriorKey"]
+- !private ["Sn", "indexesKey"]
+- !private ["Sn", "kindKey"]
+- !private ["Sn", "notificationIsPriorKey"]
+- !private ["SX", "indexesKey"]
+- !private ["SX", "kindKey"]
+- !private ["SX", "notificationIsPriorKey"]
+- !private ["SY", "RawValue"]
+- !private ["SY", ""]
+- !private ["SY", "indexesKey"]
+- !private ["SY", "init"]
+- !private ["SY", "kindKey"]
+- !private ["SY", "newKey"]
+- !private ["SY", "notificationIsPriorKey"]
+- !private ["SY", "oldKey"]
+- ["ST", ""]
+- !private ["ST", "indexesKey"]
+- !private ["ST", "kindKey"]
+- !private ["ST", "notificationIsPriorKey"]
+- !private ["ST", "subscript"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So18UIFocusEnvironmentP", ""]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "Bool"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "DefaultsKey"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "IndexSet"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "NSKeyValueChange"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "NSKeyValueChangeKey"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "T"]
+- !private ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "UInt"]
+- !private ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "Update"]
+- !private ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "deserialize"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "indexes"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "init"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "isPrior"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "kind"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "newValue"]
+- ["18SwiftyUserDefaults0C8ObserverC6UpdateV", "oldValue"]
+- !private ["So14NSUserDefaultsC", "addObserver"]
+- !private ["So14NSUserDefaultsC", "removeObserver"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "indexesKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "kindKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "newKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "notificationIsPriorKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "oldKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSKeyValueChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "T"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Update"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didRemoveObserver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dispose"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isPrior"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kind"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "newValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "oldValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userDefaults"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSKeyValueChange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "T"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Update"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didRemoveObserver"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dispose"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "indexes"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isPrior"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "key"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kind"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "newValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "oldValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userDefaults"]
+- !private ["s21_ObjectiveCBridgeableP", "indexesKey"]
+- !private ["s21_ObjectiveCBridgeableP", "kindKey"]
+- !private ["s21_ObjectiveCBridgeableP", "newKey"]
+- !private ["s21_ObjectiveCBridgeableP", "notificationIsPriorKey"]
+- !private ["s21_ObjectiveCBridgeableP", "oldKey"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s20_SwiftNewtypeWrapperP", "indexesKey"]
+- !private ["s20_SwiftNewtypeWrapperP", "kindKey"]
+- !private ["s20_SwiftNewtypeWrapperP", "newKey"]
+- !private ["s20_SwiftNewtypeWrapperP", "notificationIsPriorKey"]
+- !private ["s20_SwiftNewtypeWrapperP", "oldKey"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "18SwiftyUserDefaults0C6BridgeC"
+- "18SwiftyUserDefaults0C10DisposableP"
+- !private "18SwiftyUserDefaults0C3KeyC"
+- "18SwiftyUserDefaults0C4KeysC"
+- "18SwiftyUserDefaults0C8ObserverC"
+- "18SwiftyUserDefaults0C12SerializableP"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "SD5IndexV"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So16NSKeyValueChangeV"
+- !private "So19NSKeyValueChangeKeya"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "SY"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So18UIFocusEnvironmentP"
+- "18SwiftyUserDefaults0C8ObserverC6UpdateV"
+- !private "So14NSUserDefaultsC"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/SwiftyUserDefaults.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e1fa8938ad7b1a9f330dc2ab66ad3d82"

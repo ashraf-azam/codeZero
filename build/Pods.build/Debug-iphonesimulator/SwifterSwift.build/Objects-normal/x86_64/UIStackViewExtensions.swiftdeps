@@ -1,0 +1,524 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So11UIStackViewC", ""]
+- ["So11UIStackViewC", "init"]
+- ["So11UIStackViewC", "addArrangedSubviews"]
+- ["So11UIStackViewC", "removeArrangedSubviews"]
+provides-dynamic-lookup:
+- "addArrangedSubviews"
+- "removeArrangedSubviews"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGFloat"
+- "FloatLiteralType"
+- "NSLayoutConstraint"
+- "UIStackView"
+- "UIView"
+- !private "addArrangedSubview"
+- !private "arrangedSubviews"
+- !private "removeArrangedSubview"
+depends-member:
+- !private ["So20UIStackViewAlignmentV", "fill"]
+- ["So15CALayerDelegateP", "Alignment"]
+- ["So15CALayerDelegateP", "CGFloat"]
+- ["So15CALayerDelegateP", "Distribution"]
+- ["So15CALayerDelegateP", "NSLayoutConstraint"]
+- ["So15CALayerDelegateP", "UIStackView"]
+- !private ["So15CALayerDelegateP", "addArrangedSubview"]
+- ["So15CALayerDelegateP", "addArrangedSubviews"]
+- !private ["So15CALayerDelegateP", "alignment"]
+- !private ["So15CALayerDelegateP", "arrangedSubviews"]
+- !private ["So15CALayerDelegateP", "axis"]
+- !private ["So15CALayerDelegateP", "distribution"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "removeArrangedSubview"]
+- ["So15CALayerDelegateP", "removeArrangedSubviews"]
+- !private ["So15CALayerDelegateP", "spacing"]
+- ["s7CVarArgP", "Alignment"]
+- ["s7CVarArgP", "Axis"]
+- ["s7CVarArgP", "Distribution"]
+- !private ["s7CVarArgP", "addArrangedSubview"]
+- !private ["s7CVarArgP", "alignment"]
+- !private ["s7CVarArgP", "arrangedSubviews"]
+- !private ["s7CVarArgP", "axis"]
+- !private ["s7CVarArgP", "distribution"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeArrangedSubview"]
+- !private ["s7CVarArgP", "spacing"]
+- ["s28CustomDebugStringConvertibleP", "Alignment"]
+- ["s28CustomDebugStringConvertibleP", "Axis"]
+- ["s28CustomDebugStringConvertibleP", "Distribution"]
+- !private ["s28CustomDebugStringConvertibleP", "addArrangedSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "alignment"]
+- !private ["s28CustomDebugStringConvertibleP", "arrangedSubviews"]
+- !private ["s28CustomDebugStringConvertibleP", "axis"]
+- !private ["s28CustomDebugStringConvertibleP", "distribution"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeArrangedSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "spacing"]
+- ["s23CustomStringConvertibleP", "Alignment"]
+- ["s23CustomStringConvertibleP", "Axis"]
+- ["s23CustomStringConvertibleP", "Distribution"]
+- !private ["s23CustomStringConvertibleP", "addArrangedSubview"]
+- !private ["s23CustomStringConvertibleP", "alignment"]
+- !private ["s23CustomStringConvertibleP", "arrangedSubviews"]
+- !private ["s23CustomStringConvertibleP", "axis"]
+- !private ["s23CustomStringConvertibleP", "distribution"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "removeArrangedSubview"]
+- !private ["s23CustomStringConvertibleP", "spacing"]
+- !private ["So23UIStackViewDistributionV", "fill"]
+- ["SQ", "Alignment"]
+- ["SQ", "Axis"]
+- ["SQ", "Distribution"]
+- ["SQ", ""]
+- !private ["SQ", "addArrangedSubview"]
+- !private ["SQ", "alignment"]
+- !private ["SQ", "arrangedSubviews"]
+- !private ["SQ", "axis"]
+- !private ["SQ", "distribution"]
+- !private ["SQ", "fill"]
+- !private ["SQ", "init"]
+- !private ["SQ", "removeArrangedSubview"]
+- !private ["SQ", "spacing"]
+- ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["SH", "Alignment"]
+- ["SH", "Axis"]
+- ["SH", "Distribution"]
+- !private ["SH", "addArrangedSubview"]
+- !private ["SH", "alignment"]
+- !private ["SH", "arrangedSubviews"]
+- !private ["SH", "axis"]
+- !private ["SH", "distribution"]
+- !private ["SH", "fill"]
+- !private ["SH", "init"]
+- !private ["SH", "removeArrangedSubview"]
+- !private ["SH", "spacing"]
+- ["So8NSCodingP", "Alignment"]
+- ["So8NSCodingP", "CGFloat"]
+- ["So8NSCodingP", "Distribution"]
+- ["So8NSCodingP", "NSLayoutConstraint"]
+- ["So8NSCodingP", "UIStackView"]
+- !private ["So8NSCodingP", "addArrangedSubview"]
+- ["So8NSCodingP", "addArrangedSubviews"]
+- !private ["So8NSCodingP", "alignment"]
+- !private ["So8NSCodingP", "arrangedSubviews"]
+- !private ["So8NSCodingP", "axis"]
+- !private ["So8NSCodingP", "distribution"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "removeArrangedSubview"]
+- ["So8NSCodingP", "removeArrangedSubviews"]
+- !private ["So8NSCodingP", "spacing"]
+- ["So18NSLayoutConstraintC", "Axis"]
+- ["So8NSObjectC", "Alignment"]
+- ["So8NSObjectC", "Axis"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "Distribution"]
+- ["So8NSObjectC", "NSLayoutConstraint"]
+- ["So8NSObjectC", "UIStackView"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addArrangedSubview"]
+- ["So8NSObjectC", "addArrangedSubviews"]
+- !private ["So8NSObjectC", "alignment"]
+- !private ["So8NSObjectC", "arrangedSubviews"]
+- !private ["So8NSObjectC", "axis"]
+- !private ["So8NSObjectC", "distribution"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "removeArrangedSubview"]
+- ["So8NSObjectC", "removeArrangedSubviews"]
+- !private ["So8NSObjectC", "spacing"]
+- ["So8NSObjectP", "Alignment"]
+- ["So8NSObjectP", "Axis"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "Distribution"]
+- ["So8NSObjectP", "NSLayoutConstraint"]
+- ["So8NSObjectP", "UIStackView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addArrangedSubview"]
+- ["So8NSObjectP", "addArrangedSubviews"]
+- !private ["So8NSObjectP", "alignment"]
+- !private ["So8NSObjectP", "arrangedSubviews"]
+- !private ["So8NSObjectP", "axis"]
+- !private ["So8NSObjectP", "distribution"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "removeArrangedSubview"]
+- ["So8NSObjectP", "removeArrangedSubviews"]
+- !private ["So8NSObjectP", "spacing"]
+- !private ["SY", "fill"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["So29UIAccessibilityIdentificationP", "Alignment"]
+- ["So29UIAccessibilityIdentificationP", "CGFloat"]
+- ["So29UIAccessibilityIdentificationP", "Distribution"]
+- ["So29UIAccessibilityIdentificationP", "NSLayoutConstraint"]
+- ["So29UIAccessibilityIdentificationP", "UIStackView"]
+- !private ["So29UIAccessibilityIdentificationP", "addArrangedSubview"]
+- ["So29UIAccessibilityIdentificationP", "addArrangedSubviews"]
+- !private ["So29UIAccessibilityIdentificationP", "alignment"]
+- !private ["So29UIAccessibilityIdentificationP", "arrangedSubviews"]
+- !private ["So29UIAccessibilityIdentificationP", "axis"]
+- !private ["So29UIAccessibilityIdentificationP", "distribution"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "removeArrangedSubview"]
+- ["So29UIAccessibilityIdentificationP", "removeArrangedSubviews"]
+- !private ["So29UIAccessibilityIdentificationP", "spacing"]
+- ["So12UIAppearanceP", "Alignment"]
+- ["So12UIAppearanceP", "CGFloat"]
+- ["So12UIAppearanceP", "Distribution"]
+- ["So12UIAppearanceP", "NSLayoutConstraint"]
+- ["So12UIAppearanceP", "UIStackView"]
+- !private ["So12UIAppearanceP", "addArrangedSubview"]
+- ["So12UIAppearanceP", "addArrangedSubviews"]
+- !private ["So12UIAppearanceP", "alignment"]
+- !private ["So12UIAppearanceP", "arrangedSubviews"]
+- !private ["So12UIAppearanceP", "axis"]
+- !private ["So12UIAppearanceP", "distribution"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "removeArrangedSubview"]
+- ["So12UIAppearanceP", "removeArrangedSubviews"]
+- !private ["So12UIAppearanceP", "spacing"]
+- ["So21UIAppearanceContainerP", "Alignment"]
+- ["So21UIAppearanceContainerP", "CGFloat"]
+- ["So21UIAppearanceContainerP", "Distribution"]
+- ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
+- ["So21UIAppearanceContainerP", "UIStackView"]
+- !private ["So21UIAppearanceContainerP", "addArrangedSubview"]
+- ["So21UIAppearanceContainerP", "addArrangedSubviews"]
+- !private ["So21UIAppearanceContainerP", "alignment"]
+- !private ["So21UIAppearanceContainerP", "arrangedSubviews"]
+- !private ["So21UIAppearanceContainerP", "axis"]
+- !private ["So21UIAppearanceContainerP", "distribution"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "removeArrangedSubview"]
+- ["So21UIAppearanceContainerP", "removeArrangedSubviews"]
+- !private ["So21UIAppearanceContainerP", "spacing"]
+- ["So17UICoordinateSpaceP", "Alignment"]
+- ["So17UICoordinateSpaceP", "CGFloat"]
+- ["So17UICoordinateSpaceP", "Distribution"]
+- ["So17UICoordinateSpaceP", "NSLayoutConstraint"]
+- ["So17UICoordinateSpaceP", "UIStackView"]
+- !private ["So17UICoordinateSpaceP", "addArrangedSubview"]
+- ["So17UICoordinateSpaceP", "addArrangedSubviews"]
+- !private ["So17UICoordinateSpaceP", "alignment"]
+- !private ["So17UICoordinateSpaceP", "arrangedSubviews"]
+- !private ["So17UICoordinateSpaceP", "axis"]
+- !private ["So17UICoordinateSpaceP", "distribution"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "removeArrangedSubview"]
+- ["So17UICoordinateSpaceP", "removeArrangedSubviews"]
+- !private ["So17UICoordinateSpaceP", "spacing"]
+- ["So13UIDynamicItemP", "Alignment"]
+- ["So13UIDynamicItemP", "CGFloat"]
+- ["So13UIDynamicItemP", "Distribution"]
+- ["So13UIDynamicItemP", "NSLayoutConstraint"]
+- ["So13UIDynamicItemP", "UIStackView"]
+- !private ["So13UIDynamicItemP", "addArrangedSubview"]
+- ["So13UIDynamicItemP", "addArrangedSubviews"]
+- !private ["So13UIDynamicItemP", "alignment"]
+- !private ["So13UIDynamicItemP", "arrangedSubviews"]
+- !private ["So13UIDynamicItemP", "axis"]
+- !private ["So13UIDynamicItemP", "distribution"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "removeArrangedSubview"]
+- ["So13UIDynamicItemP", "removeArrangedSubviews"]
+- !private ["So13UIDynamicItemP", "spacing"]
+- ["So18UIFocusEnvironmentP", "Alignment"]
+- ["So18UIFocusEnvironmentP", "CGFloat"]
+- ["So18UIFocusEnvironmentP", "Distribution"]
+- ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
+- ["So18UIFocusEnvironmentP", "UIStackView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addArrangedSubview"]
+- ["So18UIFocusEnvironmentP", "addArrangedSubviews"]
+- !private ["So18UIFocusEnvironmentP", "alignment"]
+- !private ["So18UIFocusEnvironmentP", "arrangedSubviews"]
+- !private ["So18UIFocusEnvironmentP", "axis"]
+- !private ["So18UIFocusEnvironmentP", "distribution"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "removeArrangedSubview"]
+- ["So18UIFocusEnvironmentP", "removeArrangedSubviews"]
+- !private ["So18UIFocusEnvironmentP", "spacing"]
+- ["So11UIFocusItemP", "Alignment"]
+- ["So11UIFocusItemP", "CGFloat"]
+- ["So11UIFocusItemP", "Distribution"]
+- ["So11UIFocusItemP", "NSLayoutConstraint"]
+- ["So11UIFocusItemP", "UIStackView"]
+- !private ["So11UIFocusItemP", "addArrangedSubview"]
+- ["So11UIFocusItemP", "addArrangedSubviews"]
+- !private ["So11UIFocusItemP", "alignment"]
+- !private ["So11UIFocusItemP", "arrangedSubviews"]
+- !private ["So11UIFocusItemP", "axis"]
+- !private ["So11UIFocusItemP", "distribution"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "removeArrangedSubview"]
+- ["So11UIFocusItemP", "removeArrangedSubviews"]
+- !private ["So11UIFocusItemP", "spacing"]
+- ["So20UIFocusItemContainerP", "Alignment"]
+- ["So20UIFocusItemContainerP", "CGFloat"]
+- ["So20UIFocusItemContainerP", "Distribution"]
+- ["So20UIFocusItemContainerP", "NSLayoutConstraint"]
+- ["So20UIFocusItemContainerP", "UIStackView"]
+- !private ["So20UIFocusItemContainerP", "addArrangedSubview"]
+- ["So20UIFocusItemContainerP", "addArrangedSubviews"]
+- !private ["So20UIFocusItemContainerP", "alignment"]
+- !private ["So20UIFocusItemContainerP", "arrangedSubviews"]
+- !private ["So20UIFocusItemContainerP", "axis"]
+- !private ["So20UIFocusItemContainerP", "distribution"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "removeArrangedSubview"]
+- ["So20UIFocusItemContainerP", "removeArrangedSubviews"]
+- !private ["So20UIFocusItemContainerP", "spacing"]
+- ["So24UILargeContentViewerItemP", "Alignment"]
+- ["So24UILargeContentViewerItemP", "CGFloat"]
+- ["So24UILargeContentViewerItemP", "Distribution"]
+- ["So24UILargeContentViewerItemP", "NSLayoutConstraint"]
+- ["So24UILargeContentViewerItemP", "UIStackView"]
+- !private ["So24UILargeContentViewerItemP", "addArrangedSubview"]
+- ["So24UILargeContentViewerItemP", "addArrangedSubviews"]
+- !private ["So24UILargeContentViewerItemP", "alignment"]
+- !private ["So24UILargeContentViewerItemP", "arrangedSubviews"]
+- !private ["So24UILargeContentViewerItemP", "axis"]
+- !private ["So24UILargeContentViewerItemP", "distribution"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "removeArrangedSubview"]
+- ["So24UILargeContentViewerItemP", "removeArrangedSubviews"]
+- !private ["So24UILargeContentViewerItemP", "spacing"]
+- ["So30UIPasteConfigurationSupportingP", "Alignment"]
+- ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- ["So30UIPasteConfigurationSupportingP", "Distribution"]
+- ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
+- ["So30UIPasteConfigurationSupportingP", "UIStackView"]
+- !private ["So30UIPasteConfigurationSupportingP", "addArrangedSubview"]
+- ["So30UIPasteConfigurationSupportingP", "addArrangedSubviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "alignment"]
+- !private ["So30UIPasteConfigurationSupportingP", "arrangedSubviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "axis"]
+- !private ["So30UIPasteConfigurationSupportingP", "distribution"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeArrangedSubview"]
+- ["So30UIPasteConfigurationSupportingP", "removeArrangedSubviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "spacing"]
+- ["So11UIResponderC", "Alignment"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", "Distribution"]
+- ["So11UIResponderC", "NSLayoutConstraint"]
+- ["So11UIResponderC", "UIStackView"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addArrangedSubview"]
+- ["So11UIResponderC", "addArrangedSubviews"]
+- !private ["So11UIResponderC", "alignment"]
+- !private ["So11UIResponderC", "arrangedSubviews"]
+- !private ["So11UIResponderC", "axis"]
+- !private ["So11UIResponderC", "distribution"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "removeArrangedSubview"]
+- ["So11UIResponderC", "removeArrangedSubviews"]
+- !private ["So11UIResponderC", "spacing"]
+- ["So30UIResponderStandardEditActionsP", "Alignment"]
+- ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- ["So30UIResponderStandardEditActionsP", "Distribution"]
+- ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
+- ["So30UIResponderStandardEditActionsP", "UIStackView"]
+- !private ["So30UIResponderStandardEditActionsP", "addArrangedSubview"]
+- ["So30UIResponderStandardEditActionsP", "addArrangedSubviews"]
+- !private ["So30UIResponderStandardEditActionsP", "alignment"]
+- !private ["So30UIResponderStandardEditActionsP", "arrangedSubviews"]
+- !private ["So30UIResponderStandardEditActionsP", "axis"]
+- !private ["So30UIResponderStandardEditActionsP", "distribution"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "removeArrangedSubview"]
+- ["So30UIResponderStandardEditActionsP", "removeArrangedSubviews"]
+- !private ["So30UIResponderStandardEditActionsP", "spacing"]
+- ["So11UIStackViewC", "Alignment"]
+- ["So11UIStackViewC", "CGFloat"]
+- ["So11UIStackViewC", "Distribution"]
+- ["So11UIStackViewC", "NSLayoutConstraint"]
+- ["So11UIStackViewC", "UIStackView"]
+- ["So11UIStackViewC", "UIView"]
+- ["So11UIStackViewC", ""]
+- !private ["So11UIStackViewC", "addArrangedSubview"]
+- ["So11UIStackViewC", "addArrangedSubviews"]
+- !private ["So11UIStackViewC", "alignment"]
+- !private ["So11UIStackViewC", "arrangedSubviews"]
+- !private ["So11UIStackViewC", "axis"]
+- !private ["So11UIStackViewC", "distribution"]
+- ["So11UIStackViewC", "init"]
+- !private ["So11UIStackViewC", "removeArrangedSubview"]
+- ["So11UIStackViewC", "removeArrangedSubviews"]
+- !private ["So11UIStackViewC", "spacing"]
+- ["So18UITraitEnvironmentP", "Alignment"]
+- ["So18UITraitEnvironmentP", "CGFloat"]
+- ["So18UITraitEnvironmentP", "Distribution"]
+- ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
+- ["So18UITraitEnvironmentP", "UIStackView"]
+- !private ["So18UITraitEnvironmentP", "addArrangedSubview"]
+- ["So18UITraitEnvironmentP", "addArrangedSubviews"]
+- !private ["So18UITraitEnvironmentP", "alignment"]
+- !private ["So18UITraitEnvironmentP", "arrangedSubviews"]
+- !private ["So18UITraitEnvironmentP", "axis"]
+- !private ["So18UITraitEnvironmentP", "distribution"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "removeArrangedSubview"]
+- ["So18UITraitEnvironmentP", "removeArrangedSubviews"]
+- !private ["So18UITraitEnvironmentP", "spacing"]
+- ["So23UIUserActivityRestoringP", "Alignment"]
+- ["So23UIUserActivityRestoringP", "CGFloat"]
+- ["So23UIUserActivityRestoringP", "Distribution"]
+- ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
+- ["So23UIUserActivityRestoringP", "UIStackView"]
+- !private ["So23UIUserActivityRestoringP", "addArrangedSubview"]
+- ["So23UIUserActivityRestoringP", "addArrangedSubviews"]
+- !private ["So23UIUserActivityRestoringP", "alignment"]
+- !private ["So23UIUserActivityRestoringP", "arrangedSubviews"]
+- !private ["So23UIUserActivityRestoringP", "axis"]
+- !private ["So23UIUserActivityRestoringP", "distribution"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "removeArrangedSubview"]
+- ["So23UIUserActivityRestoringP", "removeArrangedSubviews"]
+- !private ["So23UIUserActivityRestoringP", "spacing"]
+- ["So6UIViewC", "Alignment"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", "Distribution"]
+- ["So6UIViewC", "NSLayoutConstraint"]
+- ["So6UIViewC", "UIStackView"]
+- ["So6UIViewC", "UIView"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addArrangedSubview"]
+- ["So6UIViewC", "addArrangedSubviews"]
+- !private ["So6UIViewC", "alignment"]
+- !private ["So6UIViewC", "arrangedSubviews"]
+- !private ["So6UIViewC", "axis"]
+- !private ["So6UIViewC", "distribution"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "removeArrangedSubview"]
+- ["So6UIViewC", "removeArrangedSubviews"]
+- !private ["So6UIViewC", "spacing"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Alignment"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Axis"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Distribution"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addArrangedSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "alignment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrangedSubviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "axis"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "distribution"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeArrangedSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "spacing"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Alignment"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Axis"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Distribution"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addArrangedSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "alignment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "arrangedSubviews"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "axis"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "distribution"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeArrangedSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "spacing"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "Alignment"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "Distribution"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addArrangedSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "alignment"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "arrangedSubviews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "axis"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "distribution"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeArrangedSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "spacing"]
+depends-nominal:
+- !private "So20UIStackViewAlignmentV"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "So23UIStackViewDistributionV"
+- "SQ"
+- "s25ExpressibleByFloatLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So18NSLayoutConstraintC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- !private "ST"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So11UIStackViewC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SpriteKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/SwifterSwift/SwifterSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/SwifterSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f13bff7ebcb3f65d8938373cecb80c5f"

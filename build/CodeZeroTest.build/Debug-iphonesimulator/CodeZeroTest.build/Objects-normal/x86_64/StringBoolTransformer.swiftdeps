@@ -1,0 +1,328 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StringBoolTransformer"
+provides-nominal:
+- "12CodeZeroTest21StringBoolTransformerC"
+provides-member:
+- ["12CodeZeroTest21StringBoolTransformerC", ""]
+provides-dynamic-lookup:
+- "shared"
+- "transform"
+depends-top-level:
+- !private "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- "CodingContainerTransformer"
+- "Input"
+- "Output"
+- "String"
+- "StringBoolTransformer"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "lowercased"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["Sl", ""]
+- !private ["Sl", "lowercased"]
+- !private ["SL", ""]
+- !private ["SL", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["Se", "lowercased"]
+- ["17CodableExtensions28DecodingContainerTransformerP", "Input"]
+- ["17CodableExtensions28DecodingContainerTransformerP", "Output"]
+- ["17CodableExtensions28DecodingContainerTransformerP", "StringBoolTransformer"]
+- ["17CodableExtensions28DecodingContainerTransformerP", ""]
+- ["17CodableExtensions28DecodingContainerTransformerP", "init"]
+- ["17CodableExtensions28DecodingContainerTransformerP", "transform"]
+- !private ["SE", "lowercased"]
+- ["17CodableExtensions28EncodingContainerTransformerP", "Input"]
+- ["17CodableExtensions28EncodingContainerTransformerP", "Output"]
+- ["17CodableExtensions28EncodingContainerTransformerP", "StringBoolTransformer"]
+- ["17CodableExtensions28EncodingContainerTransformerP", ""]
+- ["17CodableExtensions28EncodingContainerTransformerP", "init"]
+- ["17CodableExtensions28EncodingContainerTransformerP", "transform"]
+- !private ["SQ", ""]
+- !private ["SQ", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["SH", ""]
+- !private ["SH", "lowercased"]
+- !private ["10Kingfisher0A15CompatibleValueP", "lowercased"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "lowercaseStringWithLocale"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "lowercaseStringWithLocale"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["Sm", "lowercased"]
+- !private ["7RxSwift18ReactiveCompatibleP", "lowercased"]
+- !private ["ST", ""]
+- !private ["ST", "lowercased"]
+- !private ["SS", "lowercased"]
+- ["12CodeZeroTest21StringBoolTransformerC", "Bool"]
+- ["12CodeZeroTest21StringBoolTransformerC", "Input"]
+- ["12CodeZeroTest21StringBoolTransformerC", "Output"]
+- ["12CodeZeroTest21StringBoolTransformerC", "String"]
+- ["12CodeZeroTest21StringBoolTransformerC", "StringBoolTransformer"]
+- ["12CodeZeroTest21StringBoolTransformerC", ""]
+- ["12CodeZeroTest21StringBoolTransformerC", "deinit"]
+- ["12CodeZeroTest21StringBoolTransformerC", "init"]
+- ["12CodeZeroTest21StringBoolTransformerC", "shared"]
+- ["12CodeZeroTest21StringBoolTransformerC", "transform"]
+- !private ["Sy", "lowercased"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "17CodableExtensions28DecodingContainerTransformerP"
+- !private "SE"
+- "17CodableExtensions28EncodingContainerTransformerP"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "10Kingfisher0A15CompatibleValueP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "SS"
+- "12CodeZeroTest21StringBoolTransformerC"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So18UIFocusEnvironmentP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Accelerate.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/Kingfisher.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/CodableExtensions/CodableExtensions.framework/Modules/CodableExtensions.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/SwifterSwift/SwifterSwift.framework/Modules/SwifterSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SpriteKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/CodableExtensions/CodableExtensions.framework/Headers/CodableExtensions-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/SwifterSwift/SwifterSwift.framework/Headers/SwifterSwift-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRVersion.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorSession.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorAssertion.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorAssertion.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorInfo.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorInfo.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactorResolver.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneMultiFactorGenerator.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRMultiFactor.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallations.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FirebaseInstallations.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsErrors.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Headers/Kingfisher-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/CodableExtensions/CodableExtensions.framework/Headers/CodableExtensions-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/SwifterSwift/SwifterSwift.framework/Headers/SwifterSwift-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Headers/FIRInstallationsAuthTokenResult.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+Consent.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/Kingfisher/Kingfisher.framework/Modules/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/CodableExtensions/CodableExtensions.framework/Modules/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/FirebaseInstallations/FirebaseInstallations.framework/Modules/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/SwifterSwift/SwifterSwift.framework/Modules/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6352e276664ebbcf0b06c3a341044d7b"

@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "9f4cf1629d97b3652d306263757e0328"
+build_time: [1616943451, 81482000]
+inputs:
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/AnimationConfiguration.swift": [1616895837, 380399401]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/Array+Extensions.swift": [1616895837, 379774336]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/CollectionViewSectionedDataSource.swift": [1616895837, 385851275]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/DataSources.swift": [1616895837, 383053946]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/Deprecated.swift": [1616895837, 384867970]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/FloatingPointType+IdentifiableType.swift": [1616895837, 381004482]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/IntegerType+IdentifiableType.swift": [1616895837, 386723258]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/RxCollectionViewSectionedAnimatedDataSource.swift": [1616895837, 387239663]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/RxCollectionViewSectionedReloadDataSource.swift": [1616895837, 382515711]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/RxPickerViewAdapter.swift": [1616895837, 384271855]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/RxTableViewSectionedAnimatedDataSource.swift": [1616895837, 381506990]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/RxTableViewSectionedReloadDataSource.swift": [1616895837, 388173366]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/String+IdentifiableType.swift": [1616895837, 383593497]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/TableViewSectionedDataSource.swift": [1616895837, 387652900]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/UI+SectionedViewType.swift": [1616895837, 386248545]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxDataSources/Sources/RxDataSources/ViewTransition.swift": [1616895837, 385352955]

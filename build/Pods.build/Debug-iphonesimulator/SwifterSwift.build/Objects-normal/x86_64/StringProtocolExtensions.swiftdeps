@@ -1,0 +1,372 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Sy", ""]
+- ["Sy", "commonSuffix"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "Index"
+- "String"
+- "StringProtocol"
+- !private "reversed"
+depends-member:
+- ["SK", "CompareOptions"]
+- !private ["SK", "Element"]
+- ["SK", "Index"]
+- ["SK", "String"]
+- ["SK", "StringProtocol"]
+- ["SK", ""]
+- !private ["SK", "commonPrefix"]
+- !private ["SK", "init"]
+- !private ["SK", "reversed"]
+- ["s7CVarArgP", "CompareOptions"]
+- ["s7CVarArgP", "Index"]
+- !private ["s7CVarArgP", "commonPrefix"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "reversed"]
+- ["Sl", "CompareOptions"]
+- !private ["Sl", "Element"]
+- ["Sl", "Index"]
+- ["Sl", "String"]
+- ["Sl", "StringProtocol"]
+- ["Sl", ""]
+- !private ["Sl", "commonPrefix"]
+- !private ["Sl", "init"]
+- !private ["Sl", "reversed"]
+- ["SL", "CompareOptions"]
+- !private ["SL", "Element"]
+- ["SL", "Index"]
+- ["SL", "String"]
+- ["SL", "StringProtocol"]
+- ["SL", ""]
+- !private ["SL", "commonPrefix"]
+- !private ["SL", "init"]
+- !private ["SL", "reversed"]
+- ["So22NSStringCompareOptionsV", "ArrayLiteralElement"]
+- ["So22NSStringCompareOptionsV", "Element"]
+- ["So22NSStringCompareOptionsV", "init"]
+- ["s28CustomDebugStringConvertibleP", "CompareOptions"]
+- ["s28CustomDebugStringConvertibleP", "Index"]
+- !private ["s28CustomDebugStringConvertibleP", "commonPrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- ["s17CustomReflectableP", "CompareOptions"]
+- ["s17CustomReflectableP", "Index"]
+- !private ["s17CustomReflectableP", "commonPrefix"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "reversed"]
+- ["s23CustomStringConvertibleP", "CompareOptions"]
+- !private ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", "Index"]
+- ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "StringProtocol"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "commonPrefix"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- ["Se", "CompareOptions"]
+- ["Se", "Index"]
+- !private ["Se", "commonPrefix"]
+- !private ["Se", "init"]
+- !private ["Se", "reversed"]
+- ["SE", "CompareOptions"]
+- ["SE", "Index"]
+- !private ["SE", "commonPrefix"]
+- !private ["SE", "init"]
+- !private ["SE", "reversed"]
+- ["SQ", "ArrayLiteralElement"]
+- ["SQ", "CompareOptions"]
+- ["SQ", "Element"]
+- ["SQ", "Index"]
+- ["SQ", "String"]
+- ["SQ", "StringProtocol"]
+- ["SQ", ""]
+- !private ["SQ", "commonPrefix"]
+- ["SQ", "init"]
+- !private ["SQ", "reversed"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "CompareOptions"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Element"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Index"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "String"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringProtocol"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "commonPrefix"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "reversed"]
+- ["s32ExpressibleByStringInterpolationP", "CompareOptions"]
+- !private ["s32ExpressibleByStringInterpolationP", "Element"]
+- ["s32ExpressibleByStringInterpolationP", "Index"]
+- ["s32ExpressibleByStringInterpolationP", "String"]
+- ["s32ExpressibleByStringInterpolationP", "StringProtocol"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "commonPrefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "reversed"]
+- ["s26ExpressibleByStringLiteralP", "CompareOptions"]
+- !private ["s26ExpressibleByStringLiteralP", "Element"]
+- ["s26ExpressibleByStringLiteralP", "Index"]
+- ["s26ExpressibleByStringLiteralP", "String"]
+- ["s26ExpressibleByStringLiteralP", "StringProtocol"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "commonPrefix"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "reversed"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "CompareOptions"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Element"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Index"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "String"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringProtocol"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "commonPrefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "reversed"]
+- ["SH", "CompareOptions"]
+- !private ["SH", "Element"]
+- ["SH", "Index"]
+- ["SH", "String"]
+- ["SH", "StringProtocol"]
+- ["SH", ""]
+- !private ["SH", "commonPrefix"]
+- !private ["SH", "init"]
+- !private ["SH", "reversed"]
+- ["s25LosslessStringConvertibleP", "CompareOptions"]
+- !private ["s25LosslessStringConvertibleP", "Element"]
+- ["s25LosslessStringConvertibleP", "Index"]
+- ["s25LosslessStringConvertibleP", "String"]
+- ["s25LosslessStringConvertibleP", "StringProtocol"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "commonPrefix"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "reversed"]
+- ["s10MirrorPathP", "CompareOptions"]
+- ["s10MirrorPathP", "Index"]
+- !private ["s10MirrorPathP", "commonPrefix"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "reversed"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "commonPrefix"]
+- !private ["So8NSCodingP", "reversed"]
+- !private ["So9NSCopyingP", "commonPrefix"]
+- !private ["So9NSCopyingP", "reversed"]
+- !private ["So21NSItemProviderReadingP", "commonPrefix"]
+- !private ["So21NSItemProviderReadingP", "reversed"]
+- !private ["So21NSItemProviderWritingP", "commonPrefix"]
+- !private ["So21NSItemProviderWritingP", "reversed"]
+- !private ["So16NSMutableCopyingP", "commonPrefix"]
+- !private ["So16NSMutableCopyingP", "reversed"]
+- !private ["So8NSObjectC", "commonPrefix"]
+- !private ["So8NSObjectC", "commonPrefixWithString"]
+- !private ["So8NSObjectC", "reversed"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "commonPrefix"]
+- !private ["So8NSObjectP", "commonPrefixWithString"]
+- !private ["So8NSObjectP", "reversed"]
+- !private ["So14NSSecureCodingP", "commonPrefix"]
+- !private ["So14NSSecureCodingP", "reversed"]
+- !private ["So8NSStringC", "commonPrefix"]
+- !private ["So8NSStringC", "reversed"]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "init"]
+- ["Sm", "CompareOptions"]
+- ["Sm", "Index"]
+- !private ["Sm", "commonPrefix"]
+- !private ["Sm", "init"]
+- !private ["Sm", "reversed"]
+- ["SY", "ArrayLiteralElement"]
+- ["SY", "Element"]
+- ["SY", ""]
+- ["SY", "init"]
+- ["ST", "CompareOptions"]
+- !private ["ST", "Element"]
+- ["ST", "Index"]
+- ["ST", "String"]
+- ["ST", "StringProtocol"]
+- ["ST", ""]
+- !private ["ST", "commonPrefix"]
+- !private ["ST", "init"]
+- !private ["ST", "reversed"]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "init"]
+- ["SS", "CompareOptions"]
+- ["SS", "Index"]
+- !private ["SS", "commonPrefix"]
+- !private ["SS", "init"]
+- !private ["SS", "reversed"]
+- ["Sy", "CompareOptions"]
+- !private ["Sy", "Element"]
+- ["Sy", "Index"]
+- ["Sy", "String"]
+- ["Sy", "StringProtocol"]
+- ["Sy", ""]
+- !private ["Sy", "commonPrefix"]
+- ["Sy", "commonSuffix"]
+- !private ["Sy", "init"]
+- !private ["Sy", "reversed"]
+- ["s16TextOutputStreamP", "CompareOptions"]
+- !private ["s16TextOutputStreamP", "Element"]
+- ["s16TextOutputStreamP", "Index"]
+- ["s16TextOutputStreamP", "String"]
+- ["s16TextOutputStreamP", "StringProtocol"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "commonPrefix"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "reversed"]
+- ["s20TextOutputStreamableP", "CompareOptions"]
+- !private ["s20TextOutputStreamableP", "Element"]
+- ["s20TextOutputStreamableP", "Index"]
+- ["s20TextOutputStreamableP", "String"]
+- ["s20TextOutputStreamableP", "StringProtocol"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "commonPrefix"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "reversed"]
+- ["s30_CustomPlaygroundQuickLookableP", "CompareOptions"]
+- ["s30_CustomPlaygroundQuickLookableP", "Index"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "commonPrefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "reversed"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "CompareOptions"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Index"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "commonPrefix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "reversed"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "CompareOptions"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Index"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "commonPrefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "reversed"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "CompareOptions"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Index"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "commonPrefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "reversed"]
+- ["s19_HasContiguousBytesP", "CompareOptions"]
+- ["s19_HasContiguousBytesP", "Index"]
+- !private ["s19_HasContiguousBytesP", "commonPrefix"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "reversed"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "commonPrefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reversed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "commonPrefix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reversed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "commonPrefix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reversed"]
+- ["s21_ObjectiveCBridgeableP", "CompareOptions"]
+- ["s21_ObjectiveCBridgeableP", "Index"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "commonPrefix"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "So22NSStringCompareOptionsV"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s9OptionSetP"
+- "Sm"
+- "SY"
+- "ST"
+- "s10SetAlgebraP"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SpriteKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/SwifterSwift/SwifterSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/SwifterSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f0fc2624e8f9e6062cb750315ad1d296"

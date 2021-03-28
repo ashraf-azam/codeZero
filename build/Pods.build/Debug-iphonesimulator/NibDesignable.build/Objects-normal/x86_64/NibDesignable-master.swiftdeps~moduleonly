@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "35057b831fe11dbcc455b0f2245d6e97"
+build_time: [1616943411, 946311000]
+inputs:
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/NibDesignable/NibDesignable.swift": [1616895836, 919130929]

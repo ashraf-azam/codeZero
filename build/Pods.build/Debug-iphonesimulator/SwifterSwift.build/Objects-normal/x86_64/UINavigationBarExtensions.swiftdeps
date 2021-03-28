@@ -1,0 +1,632 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So15UINavigationBarC", ""]
+- ["So15UINavigationBarC", "setTitleFont"]
+- ["So15UINavigationBarC", "makeTransparent"]
+- ["So15UINavigationBarC", "setColors"]
+provides-dynamic-lookup:
+- "makeTransparent"
+- "setColors"
+- "setTitleFont"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Dictionary"
+- !private "NSAttributedString"
+- "UIColor"
+- "UIFont"
+- !private "UIImage"
+- "UINavigationBar"
+- !private "backgroundColor"
+- !private "barTintColor"
+- !private "isTranslucent"
+- !private "setBackgroundImage"
+- !private "shadowImage"
+- !private "tintColor"
+- !private "titleTextAttributes"
+depends-member:
+- !private ["So15CALayerDelegateP", "NSAttributedString"]
+- ["So15CALayerDelegateP", "UIFont"]
+- !private ["So15CALayerDelegateP", "UIImage"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "barTintColor"]
+- !private ["So15CALayerDelegateP", "isTranslucent"]
+- ["So15CALayerDelegateP", "makeTransparent"]
+- !private ["So15CALayerDelegateP", "setBackgroundImage"]
+- ["So15CALayerDelegateP", "setColors"]
+- ["So15CALayerDelegateP", "setTitleFont"]
+- !private ["So15CALayerDelegateP", "shadowImage"]
+- !private ["So15CALayerDelegateP", "tintColor"]
+- !private ["So15CALayerDelegateP", "titleTextAttributes"]
+- !private ["s7CVarArgP", "Key"]
+- !private ["s7CVarArgP", "NSAttributedString"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "barTintColor"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isTranslucent"]
+- !private ["s7CVarArgP", "setBackgroundImage"]
+- !private ["s7CVarArgP", "shadowImage"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "titleTextAttributes"]
+- !private ["s7CVarArgP", "white"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Key"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "barTintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isTranslucent"]
+- !private ["s28CustomDebugStringConvertibleP", "setBackgroundImage"]
+- !private ["s28CustomDebugStringConvertibleP", "shadowImage"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "titleTextAttributes"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s17CustomReflectableP", "clear"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Key"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedString"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "barTintColor"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isTranslucent"]
+- !private ["s23CustomStringConvertibleP", "setBackgroundImage"]
+- !private ["s23CustomStringConvertibleP", "shadowImage"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "titleTextAttributes"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["Se", "clear"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "clear"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Key"]
+- !private ["SQ", "NSAttributedString"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", ""]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "barTintColor"]
+- !private ["SQ", "black"]
+- !private ["SQ", "clear"]
+- !private ["SQ", "default"]
+- !private ["SQ", "font"]
+- !private ["SQ", "foregroundColor"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isTranslucent"]
+- !private ["SQ", "setBackgroundImage"]
+- !private ["SQ", "shadowImage"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "tintColor"]
+- !private ["SQ", "titleTextAttributes"]
+- !private ["SQ", "white"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "clear"]
+- !private ["SH", "Key"]
+- !private ["SH", "NSAttributedString"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "barTintColor"]
+- !private ["SH", "black"]
+- !private ["SH", "clear"]
+- !private ["SH", "default"]
+- !private ["SH", "font"]
+- !private ["SH", "foregroundColor"]
+- !private ["SH", "init"]
+- !private ["SH", "isTranslucent"]
+- !private ["SH", "setBackgroundImage"]
+- !private ["SH", "shadowImage"]
+- !private ["SH", "subscript"]
+- !private ["SH", "tintColor"]
+- !private ["SH", "titleTextAttributes"]
+- !private ["SH", "white"]
+- !private ["So21NSAttributedStringKeya", "font"]
+- !private ["So21NSAttributedStringKeya", "foregroundColor"]
+- !private ["So18NSAttributedStringC", "Key"]
+- !private ["So8NSCodingP", "Key"]
+- !private ["So8NSCodingP", "NSAttributedString"]
+- ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "barTintColor"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isTranslucent"]
+- ["So8NSCodingP", "makeTransparent"]
+- !private ["So8NSCodingP", "setBackgroundImage"]
+- ["So8NSCodingP", "setColors"]
+- ["So8NSCodingP", "setTitleFont"]
+- !private ["So8NSCodingP", "shadowImage"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "titleTextAttributes"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "Key"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "clear"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "Key"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "Key"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So16NSMutableCopyingP", "Key"]
+- !private ["So8NSObjectC", "Key"]
+- !private ["So8NSObjectC", "NSAttributedString"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "barTintColor"]
+- !private ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "clear"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isTranslucent"]
+- ["So8NSObjectC", "makeTransparent"]
+- !private ["So8NSObjectC", "setBackgroundImage"]
+- ["So8NSObjectC", "setColors"]
+- ["So8NSObjectC", "setTitleFont"]
+- !private ["So8NSObjectC", "shadowImage"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "titleTextAttributes"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectP", "Key"]
+- !private ["So8NSObjectP", "NSAttributedString"]
+- !private ["So8NSObjectP", "UIImage"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "barTintColor"]
+- !private ["So8NSObjectP", "black"]
+- !private ["So8NSObjectP", "clear"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isTranslucent"]
+- ["So8NSObjectP", "makeTransparent"]
+- !private ["So8NSObjectP", "setBackgroundImage"]
+- ["So8NSObjectP", "setColors"]
+- ["So8NSObjectP", "setTitleFont"]
+- !private ["So8NSObjectP", "shadowImage"]
+- !private ["So8NSObjectP", "tintColor"]
+- !private ["So8NSObjectP", "titleTextAttributes"]
+- !private ["So8NSObjectP", "white"]
+- !private ["So14NSSecureCodingP", "Key"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["Sq", "clear"]
+- !private ["SY", ""]
+- !private ["SY", "default"]
+- !private ["SY", "font"]
+- !private ["SY", "foregroundColor"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["So29UIAccessibilityIdentificationP", "NSAttributedString"]
+- ["So29UIAccessibilityIdentificationP", "UIFont"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "barTintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isTranslucent"]
+- ["So29UIAccessibilityIdentificationP", "makeTransparent"]
+- !private ["So29UIAccessibilityIdentificationP", "setBackgroundImage"]
+- ["So29UIAccessibilityIdentificationP", "setColors"]
+- ["So29UIAccessibilityIdentificationP", "setTitleFont"]
+- !private ["So29UIAccessibilityIdentificationP", "shadowImage"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So29UIAccessibilityIdentificationP", "titleTextAttributes"]
+- !private ["So12UIAppearanceP", "NSAttributedString"]
+- ["So12UIAppearanceP", "UIFont"]
+- !private ["So12UIAppearanceP", "UIImage"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "barTintColor"]
+- !private ["So12UIAppearanceP", "isTranslucent"]
+- ["So12UIAppearanceP", "makeTransparent"]
+- !private ["So12UIAppearanceP", "setBackgroundImage"]
+- ["So12UIAppearanceP", "setColors"]
+- ["So12UIAppearanceP", "setTitleFont"]
+- !private ["So12UIAppearanceP", "shadowImage"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So12UIAppearanceP", "titleTextAttributes"]
+- !private ["So21UIAppearanceContainerP", "NSAttributedString"]
+- ["So21UIAppearanceContainerP", "UIFont"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "barTintColor"]
+- !private ["So21UIAppearanceContainerP", "isTranslucent"]
+- ["So21UIAppearanceContainerP", "makeTransparent"]
+- !private ["So21UIAppearanceContainerP", "setBackgroundImage"]
+- ["So21UIAppearanceContainerP", "setColors"]
+- ["So21UIAppearanceContainerP", "setTitleFont"]
+- !private ["So21UIAppearanceContainerP", "shadowImage"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "titleTextAttributes"]
+- !private ["So12UIBarMetricsV", "default"]
+- !private ["So16UIBarPositioningP", "NSAttributedString"]
+- ["So16UIBarPositioningP", "UIColor"]
+- ["So16UIBarPositioningP", "UIFont"]
+- !private ["So16UIBarPositioningP", "UIImage"]
+- !private ["So16UIBarPositioningP", "backgroundColor"]
+- !private ["So16UIBarPositioningP", "barTintColor"]
+- !private ["So16UIBarPositioningP", "isTranslucent"]
+- ["So16UIBarPositioningP", "makeTransparent"]
+- !private ["So16UIBarPositioningP", "setBackgroundImage"]
+- ["So16UIBarPositioningP", "setColors"]
+- ["So16UIBarPositioningP", "setTitleFont"]
+- !private ["So16UIBarPositioningP", "shadowImage"]
+- !private ["So16UIBarPositioningP", "tintColor"]
+- !private ["So16UIBarPositioningP", "titleTextAttributes"]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "clear"]
+- !private ["So7UIColorC", "white"]
+- !private ["So17UICoordinateSpaceP", "NSAttributedString"]
+- ["So17UICoordinateSpaceP", "UIFont"]
+- !private ["So17UICoordinateSpaceP", "UIImage"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "barTintColor"]
+- !private ["So17UICoordinateSpaceP", "isTranslucent"]
+- ["So17UICoordinateSpaceP", "makeTransparent"]
+- !private ["So17UICoordinateSpaceP", "setBackgroundImage"]
+- ["So17UICoordinateSpaceP", "setColors"]
+- ["So17UICoordinateSpaceP", "setTitleFont"]
+- !private ["So17UICoordinateSpaceP", "shadowImage"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- !private ["So17UICoordinateSpaceP", "titleTextAttributes"]
+- !private ["So13UIDynamicItemP", "NSAttributedString"]
+- ["So13UIDynamicItemP", "UIFont"]
+- !private ["So13UIDynamicItemP", "UIImage"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "barTintColor"]
+- !private ["So13UIDynamicItemP", "isTranslucent"]
+- ["So13UIDynamicItemP", "makeTransparent"]
+- !private ["So13UIDynamicItemP", "setBackgroundImage"]
+- ["So13UIDynamicItemP", "setColors"]
+- ["So13UIDynamicItemP", "setTitleFont"]
+- !private ["So13UIDynamicItemP", "shadowImage"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- !private ["So13UIDynamicItemP", "titleTextAttributes"]
+- !private ["So18UIFocusEnvironmentP", "NSAttributedString"]
+- ["So18UIFocusEnvironmentP", "UIFont"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "barTintColor"]
+- !private ["So18UIFocusEnvironmentP", "isTranslucent"]
+- ["So18UIFocusEnvironmentP", "makeTransparent"]
+- !private ["So18UIFocusEnvironmentP", "setBackgroundImage"]
+- ["So18UIFocusEnvironmentP", "setColors"]
+- ["So18UIFocusEnvironmentP", "setTitleFont"]
+- !private ["So18UIFocusEnvironmentP", "shadowImage"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "titleTextAttributes"]
+- !private ["So11UIFocusItemP", "NSAttributedString"]
+- ["So11UIFocusItemP", "UIFont"]
+- !private ["So11UIFocusItemP", "UIImage"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "barTintColor"]
+- !private ["So11UIFocusItemP", "isTranslucent"]
+- ["So11UIFocusItemP", "makeTransparent"]
+- !private ["So11UIFocusItemP", "setBackgroundImage"]
+- ["So11UIFocusItemP", "setColors"]
+- ["So11UIFocusItemP", "setTitleFont"]
+- !private ["So11UIFocusItemP", "shadowImage"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- !private ["So11UIFocusItemP", "titleTextAttributes"]
+- !private ["So20UIFocusItemContainerP", "NSAttributedString"]
+- ["So20UIFocusItemContainerP", "UIFont"]
+- !private ["So20UIFocusItemContainerP", "UIImage"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "barTintColor"]
+- !private ["So20UIFocusItemContainerP", "isTranslucent"]
+- ["So20UIFocusItemContainerP", "makeTransparent"]
+- !private ["So20UIFocusItemContainerP", "setBackgroundImage"]
+- ["So20UIFocusItemContainerP", "setColors"]
+- ["So20UIFocusItemContainerP", "setTitleFont"]
+- !private ["So20UIFocusItemContainerP", "shadowImage"]
+- !private ["So20UIFocusItemContainerP", "tintColor"]
+- !private ["So20UIFocusItemContainerP", "titleTextAttributes"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So24UILargeContentViewerItemP", "NSAttributedString"]
+- ["So24UILargeContentViewerItemP", "UIFont"]
+- !private ["So24UILargeContentViewerItemP", "UIImage"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So24UILargeContentViewerItemP", "barTintColor"]
+- !private ["So24UILargeContentViewerItemP", "isTranslucent"]
+- ["So24UILargeContentViewerItemP", "makeTransparent"]
+- !private ["So24UILargeContentViewerItemP", "setBackgroundImage"]
+- ["So24UILargeContentViewerItemP", "setColors"]
+- ["So24UILargeContentViewerItemP", "setTitleFont"]
+- !private ["So24UILargeContentViewerItemP", "shadowImage"]
+- !private ["So24UILargeContentViewerItemP", "tintColor"]
+- !private ["So24UILargeContentViewerItemP", "titleTextAttributes"]
+- !private ["So15UINavigationBarC", "NSAttributedString"]
+- ["So15UINavigationBarC", "UIColor"]
+- ["So15UINavigationBarC", "UIFont"]
+- !private ["So15UINavigationBarC", "UIImage"]
+- ["So15UINavigationBarC", ""]
+- !private ["So15UINavigationBarC", "backgroundColor"]
+- !private ["So15UINavigationBarC", "barTintColor"]
+- !private ["So15UINavigationBarC", "isTranslucent"]
+- ["So15UINavigationBarC", "makeTransparent"]
+- !private ["So15UINavigationBarC", "setBackgroundImage"]
+- ["So15UINavigationBarC", "setColors"]
+- ["So15UINavigationBarC", "setTitleFont"]
+- !private ["So15UINavigationBarC", "shadowImage"]
+- !private ["So15UINavigationBarC", "tintColor"]
+- !private ["So15UINavigationBarC", "titleTextAttributes"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSAttributedString"]
+- ["So30UIPasteConfigurationSupportingP", "UIFont"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "barTintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "isTranslucent"]
+- ["So30UIPasteConfigurationSupportingP", "makeTransparent"]
+- !private ["So30UIPasteConfigurationSupportingP", "setBackgroundImage"]
+- ["So30UIPasteConfigurationSupportingP", "setColors"]
+- ["So30UIPasteConfigurationSupportingP", "setTitleFont"]
+- !private ["So30UIPasteConfigurationSupportingP", "shadowImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "titleTextAttributes"]
+- !private ["So11UIResponderC", "NSAttributedString"]
+- ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIFont"]
+- !private ["So11UIResponderC", "UIImage"]
+- !private ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "barTintColor"]
+- !private ["So11UIResponderC", "isTranslucent"]
+- ["So11UIResponderC", "makeTransparent"]
+- !private ["So11UIResponderC", "setBackgroundImage"]
+- ["So11UIResponderC", "setColors"]
+- ["So11UIResponderC", "setTitleFont"]
+- !private ["So11UIResponderC", "shadowImage"]
+- !private ["So11UIResponderC", "tintColor"]
+- !private ["So11UIResponderC", "titleTextAttributes"]
+- !private ["So30UIResponderStandardEditActionsP", "NSAttributedString"]
+- ["So30UIResponderStandardEditActionsP", "UIFont"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "barTintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "isTranslucent"]
+- ["So30UIResponderStandardEditActionsP", "makeTransparent"]
+- !private ["So30UIResponderStandardEditActionsP", "setBackgroundImage"]
+- ["So30UIResponderStandardEditActionsP", "setColors"]
+- ["So30UIResponderStandardEditActionsP", "setTitleFont"]
+- !private ["So30UIResponderStandardEditActionsP", "shadowImage"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "titleTextAttributes"]
+- !private ["So18UITraitEnvironmentP", "NSAttributedString"]
+- ["So18UITraitEnvironmentP", "UIFont"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "barTintColor"]
+- !private ["So18UITraitEnvironmentP", "isTranslucent"]
+- ["So18UITraitEnvironmentP", "makeTransparent"]
+- !private ["So18UITraitEnvironmentP", "setBackgroundImage"]
+- ["So18UITraitEnvironmentP", "setColors"]
+- ["So18UITraitEnvironmentP", "setTitleFont"]
+- !private ["So18UITraitEnvironmentP", "shadowImage"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- !private ["So18UITraitEnvironmentP", "titleTextAttributes"]
+- !private ["So23UIUserActivityRestoringP", "NSAttributedString"]
+- ["So23UIUserActivityRestoringP", "UIFont"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "barTintColor"]
+- !private ["So23UIUserActivityRestoringP", "isTranslucent"]
+- ["So23UIUserActivityRestoringP", "makeTransparent"]
+- !private ["So23UIUserActivityRestoringP", "setBackgroundImage"]
+- ["So23UIUserActivityRestoringP", "setColors"]
+- ["So23UIUserActivityRestoringP", "setTitleFont"]
+- !private ["So23UIUserActivityRestoringP", "shadowImage"]
+- !private ["So23UIUserActivityRestoringP", "tintColor"]
+- !private ["So23UIUserActivityRestoringP", "titleTextAttributes"]
+- !private ["So6UIViewC", "NSAttributedString"]
+- ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UIFont"]
+- !private ["So6UIViewC", "UIImage"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So6UIViewC", "barTintColor"]
+- !private ["So6UIViewC", "isTranslucent"]
+- ["So6UIViewC", "makeTransparent"]
+- !private ["So6UIViewC", "setBackgroundImage"]
+- ["So6UIViewC", "setColors"]
+- ["So6UIViewC", "setTitleFont"]
+- !private ["So6UIViewC", "shadowImage"]
+- !private ["So6UIViewC", "tintColor"]
+- !private ["So6UIViewC", "titleTextAttributes"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "font"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "foregroundColor"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "barTintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isTranslucent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setBackgroundImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shadowImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleTextAttributes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Key"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSAttributedString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "barTintColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "black"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clear"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isTranslucent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setBackgroundImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shadowImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tintColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "titleTextAttributes"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "white"]
+- !private ["s21_ObjectiveCBridgeableP", "clear"]
+- !private ["s21_ObjectiveCBridgeableP", "font"]
+- !private ["s21_ObjectiveCBridgeableP", "foregroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s20_SwiftNewtypeWrapperP", "font"]
+- !private ["s20_SwiftNewtypeWrapperP", "foregroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSAttributedString"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "barTintColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isTranslucent"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setBackgroundImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "shadowImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "titleTextAttributes"]
+depends-nominal:
+- "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "So21NSAttributedStringKeya"
+- !private "So18NSAttributedStringC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sq"
+- !private "SY"
+- !private "ST"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So12UIBarMetricsV"
+- "So16UIBarPositioningP"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "So24UILargeContentViewerItemP"
+- "So15UINavigationBarC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SpriteKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/SwifterSwift/SwifterSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/SwifterSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d57b43f5191a2da3cbf833315fd00d7c"

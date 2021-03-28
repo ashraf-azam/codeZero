@@ -1,0 +1,10 @@
+framework module NibDesignable {
+  umbrella header "NibDesignable-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module NibDesignable.__Swift {
+    exclude header "NibDesignable-Swift.h"
+}

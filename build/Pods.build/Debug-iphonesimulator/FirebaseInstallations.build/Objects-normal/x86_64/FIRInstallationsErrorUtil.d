@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Errors/FIRInstallationsErrorUtil.m \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/FirebaseInstallations.build/module.modulemap \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Errors/FIRInstallationsErrorUtil.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsErrors.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Errors/FIRInstallationsHTTPError.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromises.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/PromisesObjC.build/module.modulemap \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Wrap.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Validate.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Timeout.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Then.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Testing.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Retry.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Reduce.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Recover.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Race.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Do.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Delay.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Catch.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Await.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Async.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Any.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+Always.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromiseError.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/PromisesObjC/FBLPromises.framework/Headers/FBLPromise+All.h \
+  /Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target\ Support\ Files/PromisesObjC/PromisesObjC-umbrella.h

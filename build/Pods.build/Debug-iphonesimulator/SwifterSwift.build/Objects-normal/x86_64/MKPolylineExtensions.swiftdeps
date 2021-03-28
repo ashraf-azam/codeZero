@@ -1,0 +1,283 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So10MKPolylineC", ""]
+- ["So10MKPolylineC", "init"]
+- ["So10MKPolylineC", "coordinates"]
+provides-dynamic-lookup:
+- "coordinates"
+depends-top-level:
+- "CLLocationCoordinate2D"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MKPolyline"
+- !private "NSRange"
+- !private "getCoordinates"
+- !private "kCLLocationCoordinate2DInvalid"
+- !private "pointCount"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2D"]
+- !private ["s7CVarArgP", "NSRange"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "getCoordinates"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kCLLocationCoordinate2DInvalid"]
+- !private ["s7CVarArgP", "pointCount"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s28CustomDebugStringConvertibleP", "NSRange"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "getCoordinates"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kCLLocationCoordinate2DInvalid"]
+- !private ["s28CustomDebugStringConvertibleP", "pointCount"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2D"]
+- !private ["s23CustomStringConvertibleP", "NSRange"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "getCoordinates"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kCLLocationCoordinate2DInvalid"]
+- !private ["s23CustomStringConvertibleP", "pointCount"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SQ", "CLLocationCoordinate2D"]
+- !private ["SQ", "NSRange"]
+- !private ["SQ", ""]
+- !private ["SQ", "count"]
+- !private ["SQ", "getCoordinates"]
+- !private ["SQ", "init"]
+- !private ["SQ", "kCLLocationCoordinate2DInvalid"]
+- !private ["SQ", "pointCount"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["SH", "CLLocationCoordinate2D"]
+- !private ["SH", "NSRange"]
+- !private ["SH", "count"]
+- !private ["SH", "getCoordinates"]
+- !private ["SH", "init"]
+- !private ["SH", "kCLLocationCoordinate2DInvalid"]
+- !private ["SH", "pointCount"]
+- ["So12MKAnnotationP", "CLLocationCoordinate2D"]
+- !private ["So12MKAnnotationP", "NSRange"]
+- ["So12MKAnnotationP", ""]
+- ["So12MKAnnotationP", "coordinates"]
+- !private ["So12MKAnnotationP", "getCoordinates"]
+- ["So12MKAnnotationP", "init"]
+- !private ["So12MKAnnotationP", "kCLLocationCoordinate2DInvalid"]
+- !private ["So12MKAnnotationP", "pointCount"]
+- ["So12MKAnnotationP", "polylineWithCoordinates"]
+- ["So12MKAnnotationP", "polylineWithPoints"]
+- ["So15MKGeoJSONObjectP", "CLLocationCoordinate2D"]
+- !private ["So15MKGeoJSONObjectP", "NSRange"]
+- ["So15MKGeoJSONObjectP", "coordinates"]
+- !private ["So15MKGeoJSONObjectP", "getCoordinates"]
+- ["So15MKGeoJSONObjectP", "init"]
+- !private ["So15MKGeoJSONObjectP", "kCLLocationCoordinate2DInvalid"]
+- !private ["So15MKGeoJSONObjectP", "pointCount"]
+- ["So15MKGeoJSONObjectP", "polylineWithCoordinates"]
+- ["So15MKGeoJSONObjectP", "polylineWithPoints"]
+- ["So12MKMultiPointC", "CLLocationCoordinate2D"]
+- !private ["So12MKMultiPointC", "NSRange"]
+- ["So12MKMultiPointC", ""]
+- ["So12MKMultiPointC", "coordinates"]
+- !private ["So12MKMultiPointC", "getCoordinates"]
+- ["So12MKMultiPointC", "init"]
+- !private ["So12MKMultiPointC", "kCLLocationCoordinate2DInvalid"]
+- !private ["So12MKMultiPointC", "pointCount"]
+- ["So12MKMultiPointC", "polylineWithCoordinates"]
+- ["So12MKMultiPointC", "polylineWithPoints"]
+- ["So9MKOverlayP", "CLLocationCoordinate2D"]
+- !private ["So9MKOverlayP", "NSRange"]
+- ["So9MKOverlayP", "coordinates"]
+- !private ["So9MKOverlayP", "getCoordinates"]
+- ["So9MKOverlayP", "init"]
+- !private ["So9MKOverlayP", "kCLLocationCoordinate2DInvalid"]
+- !private ["So9MKOverlayP", "pointCount"]
+- ["So10MKPolylineC", "CLLocationCoordinate2D"]
+- !private ["So10MKPolylineC", "NSRange"]
+- ["So10MKPolylineC", ""]
+- ["So10MKPolylineC", "coordinates"]
+- !private ["So10MKPolylineC", "getCoordinates"]
+- ["So10MKPolylineC", "init"]
+- !private ["So10MKPolylineC", "kCLLocationCoordinate2DInvalid"]
+- !private ["So10MKPolylineC", "pointCount"]
+- ["So7MKShapeC", "CLLocationCoordinate2D"]
+- !private ["So7MKShapeC", "NSRange"]
+- ["So7MKShapeC", ""]
+- ["So7MKShapeC", "coordinates"]
+- !private ["So7MKShapeC", "getCoordinates"]
+- ["So7MKShapeC", "init"]
+- !private ["So7MKShapeC", "kCLLocationCoordinate2DInvalid"]
+- !private ["So7MKShapeC", "pointCount"]
+- ["So7MKShapeC", "polylineWithCoordinates"]
+- ["So7MKShapeC", "polylineWithPoints"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSObjectC", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectC", "NSRange"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "coordinates"]
+- !private ["So8NSObjectC", "getCoordinates"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kCLLocationCoordinate2DInvalid"]
+- !private ["So8NSObjectC", "pointCount"]
+- ["So8NSObjectC", "polylineWithCoordinates"]
+- ["So8NSObjectC", "polylineWithPoints"]
+- ["So8NSObjectP", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectP", "NSRange"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "coordinates"]
+- !private ["So8NSObjectP", "getCoordinates"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "kCLLocationCoordinate2DInvalid"]
+- !private ["So8NSObjectP", "pointCount"]
+- ["So8NSObjectP", "polylineWithCoordinates"]
+- ["So8NSObjectP", "polylineWithPoints"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSRange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getCoordinates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLLocationCoordinate2DInvalid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pointCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CLLocationCoordinate2D"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSRange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getCoordinates"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kCLLocationCoordinate2DInvalid"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pointCount"]
+- !private ["So8_NSRangeV", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- "So12MKAnnotationP"
+- "So15MKGeoJSONObjectP"
+- "So12MKMultiPointC"
+- "So9MKOverlayP"
+- "So10MKPolylineC"
+- "So7MKShapeC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "So8_NSRangeV"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SpriteKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/SwifterSwift/SwifterSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/SwifterSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f0ec9f4c5c461bd1cf5745ce5e8f22b7"

@@ -1,0 +1,875 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwifterSwift"
+provides-nominal:
+- "12SwifterSwiftAAV"
+provides-member:
+- ["12SwifterSwiftAAV", ""]
+- ["12SwifterSwiftAAV", "delay"]
+- ["12SwifterSwiftAAV", "debounce"]
+- ["12SwifterSwiftAAV", "didTakeScreenShot"]
+- ["12SwifterSwiftAAV", "typeName"]
+provides-dynamic-lookup:
+depends-top-level:
+- "+"
+- !private "/"
+- !private "=="
+- ">="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "CGFloat"
+- "CastingPrecedence"
+- "DispatchQueue"
+- "DispatchTime"
+- !private "DispatchTimeInterval"
+- "DispatchWorkItem"
+- "Double"
+- "Float"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Notification"
+- !private "NotificationCenter"
+- !private "OperationQueue"
+- "String"
+- !private "StringLiteralType"
+- "SwifterSwift"
+- "UIApplication"
+- "UIDevice"
+- "UIDeviceOrientation"
+- !private "UIScreen"
+- "UIStatusBarStyle"
+- "UIView"
+- "UIViewController"
+- "Void"
+- !private "currentDevice"
+- !private "kCFBundleNameKey"
+- !private "kCFBundleVersionKey"
+- !private "type"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "now"]
+- ["SK", ""]
+- !private ["SK", "contains"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "now"]
+- !private ["So8NSBundleC", "appStoreReceiptURL"]
+- !private ["So8NSBundleC", "bundleIdentifier"]
+- !private ["So8NSBundleC", "infoDictionary"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "object"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["So6CGRectV", "height"]
+- !private ["So6CGRectV", "width"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "appStoreReceiptURL"]
+- !private ["s7CVarArgP", "applicationIconBadgeNumber"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "batteryLevel"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "bundleIdentifier"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "infoDictionary"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isMultitaskingSupported"]
+- !private ["s7CVarArgP", "isNetworkActivityIndicatorVisible"]
+- !private ["s7CVarArgP", "isRegisteredForRemoteNotifications"]
+- !private ["s7CVarArgP", "isStatusBarHidden"]
+- !private ["s7CVarArgP", "keyWindow"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "model"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "now"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "orientation"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "statusBarFrame"]
+- !private ["s7CVarArgP", "statusBarStyle"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "systemVersion"]
+- !private ["s7CVarArgP", "userDidTakeScreenshotNotification"]
+- !private ["s7CVarArgP", "userInterfaceIdiom"]
+- ["Sl", ""]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- ["SL", ""]
+- !private ["SL", "contains"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "now"]
+- !private ["SL", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "appStoreReceiptURL"]
+- !private ["s28CustomDebugStringConvertibleP", "applicationIconBadgeNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "batteryLevel"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "bundleIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "infoDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isMultitaskingSupported"]
+- !private ["s28CustomDebugStringConvertibleP", "isNetworkActivityIndicatorVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "isRegisteredForRemoteNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "isStatusBarHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "model"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "orientation"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "statusBarFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "statusBarStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "systemVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "userDidTakeScreenshotNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "userInterfaceIdiom"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "now"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "width"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "appStoreReceiptURL"]
+- !private ["s23CustomStringConvertibleP", "applicationIconBadgeNumber"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "batteryLevel"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "bundleIdentifier"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "infoDictionary"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isMultitaskingSupported"]
+- !private ["s23CustomStringConvertibleP", "isNetworkActivityIndicatorVisible"]
+- !private ["s23CustomStringConvertibleP", "isRegisteredForRemoteNotifications"]
+- !private ["s23CustomStringConvertibleP", "isStatusBarHidden"]
+- !private ["s23CustomStringConvertibleP", "keyWindow"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "model"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "now"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "orientation"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "statusBarFrame"]
+- !private ["s23CustomStringConvertibleP", "statusBarStyle"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "systemVersion"]
+- !private ["s23CustomStringConvertibleP", "userDidTakeScreenshotNotification"]
+- !private ["s23CustomStringConvertibleP", "userInterfaceIdiom"]
+- !private ["10Foundation4DateV", "now"]
+- !private ["Se", "contains"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "now"]
+- !private ["Se", "path"]
+- !private ["Se", "subscript"]
+- !private ["Se", "width"]
+- !private ["SD", "subscript"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "asyncAfter"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "asyncAfter"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["8Dispatch0A4TimeV", "rawValue"]
+- !private ["8Dispatch0A12TimeIntervalO", "milliseconds"]
+- !private ["8Dispatch0A8WallTimeV", "now"]
+- !private ["8Dispatch0A8WorkItemC", "init"]
+- !private ["Sd", "now"]
+- !private ["SE", "contains"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "now"]
+- !private ["SE", "path"]
+- !private ["SE", "subscript"]
+- !private ["SE", "width"]
+- !private ["SQ", "=="]
+- !private ["SQ", "RawValue"]
+- ["SQ", ""]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "appStoreReceiptURL"]
+- !private ["SQ", "applicationIconBadgeNumber"]
+- !private ["SQ", "asyncAfter"]
+- !private ["SQ", "batteryLevel"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "bundleIdentifier"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "current"]
+- !private ["SQ", "default"]
+- !private ["SQ", "height"]
+- !private ["SQ", "infoDictionary"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isMultitaskingSupported"]
+- !private ["SQ", "isNetworkActivityIndicatorVisible"]
+- !private ["SQ", "isRegisteredForRemoteNotifications"]
+- !private ["SQ", "isStatusBarHidden"]
+- !private ["SQ", "keyWindow"]
+- !private ["SQ", "main"]
+- !private ["SQ", "milliseconds"]
+- !private ["SQ", "model"]
+- !private ["SQ", "name"]
+- !private ["SQ", "now"]
+- !private ["SQ", "object"]
+- !private ["SQ", "orientation"]
+- !private ["SQ", "pad"]
+- !private ["SQ", "path"]
+- !private ["SQ", "phone"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "rootViewController"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "statusBarFrame"]
+- !private ["SQ", "statusBarStyle"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "systemVersion"]
+- !private ["SQ", "userDidTakeScreenshotNotification"]
+- !private ["SQ", "userInterfaceIdiom"]
+- !private ["SQ", "width"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "now"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "now"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "contains"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", ""]
+- !private ["SF", "now"]
+- !private ["SH", "=="]
+- !private ["SH", "RawValue"]
+- ["SH", ""]
+- !private ["SH", "addObserver"]
+- !private ["SH", "appStoreReceiptURL"]
+- !private ["SH", "applicationIconBadgeNumber"]
+- !private ["SH", "asyncAfter"]
+- !private ["SH", "batteryLevel"]
+- !private ["SH", "bounds"]
+- !private ["SH", "bundleIdentifier"]
+- !private ["SH", "contains"]
+- !private ["SH", "current"]
+- !private ["SH", "default"]
+- !private ["SH", "infoDictionary"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isMultitaskingSupported"]
+- !private ["SH", "isNetworkActivityIndicatorVisible"]
+- !private ["SH", "isRegisteredForRemoteNotifications"]
+- !private ["SH", "isStatusBarHidden"]
+- !private ["SH", "keyWindow"]
+- !private ["SH", "main"]
+- !private ["SH", "model"]
+- !private ["SH", "name"]
+- !private ["SH", "now"]
+- !private ["SH", "object"]
+- !private ["SH", "orientation"]
+- !private ["SH", "pad"]
+- !private ["SH", "path"]
+- !private ["SH", "phone"]
+- !private ["SH", "rootViewController"]
+- !private ["SH", "shared"]
+- !private ["SH", "statusBarFrame"]
+- !private ["SH", "statusBarStyle"]
+- !private ["SH", "subscript"]
+- !private ["SH", "systemVersion"]
+- !private ["SH", "userDidTakeScreenshotNotification"]
+- !private ["SH", "userInterfaceIdiom"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "now"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "addObserverForName"]
+- !private ["So8NSObjectC", "appStoreReceiptURL"]
+- !private ["So8NSObjectC", "applicationIconBadgeNumber"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "batteryLevel"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "bundleIdentifier"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So8NSObjectC", "containsString"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "infoDictionary"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isMultitaskingSupported"]
+- !private ["So8NSObjectC", "isNetworkActivityIndicatorVisible"]
+- !private ["So8NSObjectC", "isRegisteredForRemoteNotifications"]
+- !private ["So8NSObjectC", "isStatusBarHidden"]
+- !private ["So8NSObjectC", "keyWindow"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "model"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "objectForInfoDictionaryKey"]
+- !private ["So8NSObjectC", "orientation"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "statusBarFrame"]
+- !private ["So8NSObjectC", "statusBarStyle"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "systemVersion"]
+- !private ["So8NSObjectC", "userDidTakeScreenshotNotification"]
+- !private ["So8NSObjectC", "userInterfaceIdiom"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "addObserverForName"]
+- !private ["So8NSObjectP", "appStoreReceiptURL"]
+- !private ["So8NSObjectP", "applicationIconBadgeNumber"]
+- !private ["So8NSObjectP", "asyncAfter"]
+- !private ["So8NSObjectP", "batteryLevel"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "bundleIdentifier"]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So8NSObjectP", "containsString"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "infoDictionary"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isMultitaskingSupported"]
+- !private ["So8NSObjectP", "isNetworkActivityIndicatorVisible"]
+- !private ["So8NSObjectP", "isRegisteredForRemoteNotifications"]
+- !private ["So8NSObjectP", "isStatusBarHidden"]
+- !private ["So8NSObjectP", "keyWindow"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "model"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "objectForInfoDictionaryKey"]
+- !private ["So8NSObjectP", "orientation"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "rootViewController"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "statusBarFrame"]
+- !private ["So8NSObjectP", "statusBarStyle"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "systemVersion"]
+- !private ["So8NSObjectP", "userDidTakeScreenshotNotification"]
+- !private ["So8NSObjectP", "userInterfaceIdiom"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So8NSStringC", "contains"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["Sj", ""]
+- !private ["Sj", "now"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["So16NSOperationQueueC", "main"]
+- !private ["So19NSProgressReportingP", "main"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "=="]
+- !private ["SY", "RawValue"]
+- !private ["SY", "pad"]
+- !private ["SY", "phone"]
+- !private ["10Foundation20ReferenceConvertibleP", "now"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["s10SIMDScalarP", "now"]
+- !private ["7Combine9SchedulerP", "asyncAfter"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "Element"]
+- ["ST", ""]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "now"]
+- !private ["Sx", ""]
+- !private ["Sx", "now"]
+- !private ["SS", "contains"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "contains"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- ["12SwifterSwiftAAV", "Bool"]
+- !private ["12SwifterSwiftAAV", "Bundle"]
+- ["12SwifterSwiftAAV", "CGFloat"]
+- ["12SwifterSwiftAAV", "DispatchQueue"]
+- !private ["12SwifterSwiftAAV", "DispatchTime"]
+- !private ["12SwifterSwiftAAV", "DispatchTimeInterval"]
+- ["12SwifterSwiftAAV", "DispatchWorkItem"]
+- ["12SwifterSwiftAAV", "Double"]
+- ["12SwifterSwiftAAV", "Float"]
+- ["12SwifterSwiftAAV", "Int"]
+- ["12SwifterSwiftAAV", "Notification"]
+- !private ["12SwifterSwiftAAV", "NotificationCenter"]
+- !private ["12SwifterSwiftAAV", "OperationQueue"]
+- ["12SwifterSwiftAAV", "String"]
+- ["12SwifterSwiftAAV", "UIApplication"]
+- ["12SwifterSwiftAAV", "UIDevice"]
+- ["12SwifterSwiftAAV", "UIDeviceOrientation"]
+- !private ["12SwifterSwiftAAV", "UIScreen"]
+- ["12SwifterSwiftAAV", "UIStatusBarStyle"]
+- ["12SwifterSwiftAAV", "UIView"]
+- ["12SwifterSwiftAAV", "UIViewController"]
+- ["12SwifterSwiftAAV", "Void"]
+- ["12SwifterSwiftAAV", ""]
+- ["12SwifterSwiftAAV", "appBuild"]
+- ["12SwifterSwiftAAV", "appBundleID"]
+- ["12SwifterSwiftAAV", "appDisplayName"]
+- ["12SwifterSwiftAAV", "appVersion"]
+- ["12SwifterSwiftAAV", "applicationIconBadgeNumber"]
+- ["12SwifterSwiftAAV", "batteryLevel"]
+- ["12SwifterSwiftAAV", "currentDevice"]
+- ["12SwifterSwiftAAV", "debounce"]
+- ["12SwifterSwiftAAV", "delay"]
+- ["12SwifterSwiftAAV", "deviceModel"]
+- ["12SwifterSwiftAAV", "deviceName"]
+- ["12SwifterSwiftAAV", "deviceOrientation"]
+- ["12SwifterSwiftAAV", "didTakeScreenShot"]
+- ["12SwifterSwiftAAV", "init"]
+- ["12SwifterSwiftAAV", "isInDebuggingMode"]
+- ["12SwifterSwiftAAV", "isInTestFlight"]
+- ["12SwifterSwiftAAV", "isMultitaskingSupported"]
+- ["12SwifterSwiftAAV", "isNetworkActivityIndicatorVisible"]
+- ["12SwifterSwiftAAV", "isPad"]
+- ["12SwifterSwiftAAV", "isPhone"]
+- ["12SwifterSwiftAAV", "isRegisteredForRemoteNotifications"]
+- ["12SwifterSwiftAAV", "isRunningOnSimulator"]
+- ["12SwifterSwiftAAV", "isStatusBarHidden"]
+- !private ["12SwifterSwiftAAV", "kCFBundleNameKey"]
+- !private ["12SwifterSwiftAAV", "kCFBundleVersionKey"]
+- ["12SwifterSwiftAAV", "keyWindow"]
+- ["12SwifterSwiftAAV", "mostTopViewController"]
+- ["12SwifterSwiftAAV", "screenHeight"]
+- ["12SwifterSwiftAAV", "screenWidth"]
+- ["12SwifterSwiftAAV", "sharedApplication"]
+- ["12SwifterSwiftAAV", "statusBarHeight"]
+- ["12SwifterSwiftAAV", "statusBarStyle"]
+- ["12SwifterSwiftAAV", "systemVersion"]
+- !private ["12SwifterSwiftAAV", "type"]
+- ["12SwifterSwiftAAV", "typeName"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "now"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So13UIApplicationC", "applicationIconBadgeNumber"]
+- !private ["So13UIApplicationC", "isNetworkActivityIndicatorVisible"]
+- !private ["So13UIApplicationC", "isRegisteredForRemoteNotifications"]
+- !private ["So13UIApplicationC", "isStatusBarHidden"]
+- !private ["So13UIApplicationC", "keyWindow"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So13UIApplicationC", "statusBarFrame"]
+- !private ["So13UIApplicationC", "statusBarStyle"]
+- !private ["So13UIApplicationC", "userDidTakeScreenshotNotification"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So8UIDeviceC", "batteryLevel"]
+- !private ["So8UIDeviceC", "current"]
+- !private ["So8UIDeviceC", "isMultitaskingSupported"]
+- !private ["So8UIDeviceC", "model"]
+- !private ["So8UIDeviceC", "name"]
+- !private ["So8UIDeviceC", "orientation"]
+- !private ["So8UIDeviceC", "systemVersion"]
+- !private ["So8UIDeviceC", "userInterfaceIdiom"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "applicationIconBadgeNumber"]
+- !private ["So30UIPasteConfigurationSupportingP", "isNetworkActivityIndicatorVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "isRegisteredForRemoteNotifications"]
+- !private ["So30UIPasteConfigurationSupportingP", "isStatusBarHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "statusBarFrame"]
+- !private ["So30UIPasteConfigurationSupportingP", "statusBarStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "userDidTakeScreenshotNotification"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "applicationIconBadgeNumber"]
+- !private ["So11UIResponderC", "isNetworkActivityIndicatorVisible"]
+- !private ["So11UIResponderC", "isRegisteredForRemoteNotifications"]
+- !private ["So11UIResponderC", "isStatusBarHidden"]
+- !private ["So11UIResponderC", "keyWindow"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "statusBarFrame"]
+- !private ["So11UIResponderC", "statusBarStyle"]
+- !private ["So11UIResponderC", "userDidTakeScreenshotNotification"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "applicationIconBadgeNumber"]
+- !private ["So30UIResponderStandardEditActionsP", "isNetworkActivityIndicatorVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "isRegisteredForRemoteNotifications"]
+- !private ["So30UIResponderStandardEditActionsP", "isStatusBarHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "statusBarFrame"]
+- !private ["So30UIResponderStandardEditActionsP", "statusBarStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "userDidTakeScreenshotNotification"]
+- !private ["So8UIScreenC", "bounds"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "applicationIconBadgeNumber"]
+- !private ["So23UIUserActivityRestoringP", "isNetworkActivityIndicatorVisible"]
+- !private ["So23UIUserActivityRestoringP", "isRegisteredForRemoteNotifications"]
+- !private ["So23UIUserActivityRestoringP", "isStatusBarHidden"]
+- !private ["So23UIUserActivityRestoringP", "keyWindow"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "statusBarFrame"]
+- !private ["So23UIUserActivityRestoringP", "statusBarStyle"]
+- !private ["So23UIUserActivityRestoringP", "userDidTakeScreenshotNotification"]
+- !private ["So20UIUserInterfaceIdiomV", "=="]
+- !private ["So20UIUserInterfaceIdiomV", "RawValue"]
+- !private ["So20UIUserInterfaceIdiomV", "pad"]
+- !private ["So20UIUserInterfaceIdiomV", "phone"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["s15_CVarArgAlignedP", "now"]
+- !private ["s22_CVarArgPassedAsDoubleP", "now"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "height"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "now"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "width"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "now"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "now"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "now"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appStoreReceiptURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "applicationIconBadgeNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "batteryLevel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bundleIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "infoDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMultitaskingSupported"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNetworkActivityIndicatorVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isRegisteredForRemoteNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isStatusBarHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "model"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusBarFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusBarStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userDidTakeScreenshotNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInterfaceIdiom"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "appStoreReceiptURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationIconBadgeNumber"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "asyncAfter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "batteryLevel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bundleIdentifier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contains"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "current"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "infoDictionary"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isMultitaskingSupported"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isNetworkActivityIndicatorVisible"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isRegisteredForRemoteNotifications"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isStatusBarHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "keyWindow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "model"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "object"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "orientation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusBarFrame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusBarStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemVersion"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userDidTakeScreenshotNotification"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInterfaceIdiom"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "now"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "SK"
+- !private "SB"
+- !private "So8NSBundleC"
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- !private "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "Se"
+- !private "SD"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "8Dispatch0A4TimeV"
+- !private "8Dispatch0A12TimeIntervalO"
+- !private "8Dispatch0A8WallTimeV"
+- !private "8Dispatch0A8WorkItemC"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So20NSNotificationCenterC"
+- !private "Sj"
+- "So9OS_objectC"
+- !private "So16NSOperationQueueC"
+- !private "So19NSProgressReportingP"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "7Combine9SchedulerP"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- "12SwifterSwiftAAV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So17UICoordinateSpaceP"
+- !private "So8UIDeviceC"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So20UIUserInterfaceIdiomV"
+- "So6UIViewC"
+- !private "So8UIWindowC"
+- !private "10Foundation3URLV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SpriteKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/SwifterSwift/SwifterSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/SwifterSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0d8d0afa9cbb28d0cdb4ed55c21a077b"

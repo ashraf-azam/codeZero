@@ -1,0 +1,287 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwipeDirection"
+- "SwipeConfiguration"
+- "SwipeControlEvent"
+- "SwipeObservable"
+provides-nominal:
+- "9RxGesture14SwipeDirectionO"
+provides-member:
+- ["9RxGesture14SwipeDirectionO", ""]
+- ["9RxGesture7FactoryV", ""]
+- ["7RxSwift8ReactiveV", ""]
+- ["9RxGesture7FactoryV", "swipe"]
+- ["7RxSwift8ReactiveV", "swipeGesture"]
+- ["7RxSwift8ReactiveV", "swipeGesture"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AnyFactory"
+- !private "AssignmentPrecedence"
+- "Base"
+- "Configuration"
+- "ControlEvent"
+- "Factory"
+- !private "FloatLiteralType"
+- "Gesture"
+- "GestureRecognizer"
+- !private "IntegerLiteralType"
+- "Observable"
+- "Reactive"
+- "Set"
+- "SwipeConfiguration"
+- "SwipeControlEvent"
+- "SwipeDirection"
+- "SwipeGestureRecognizerDirection"
+- "SwipeObservable"
+- "UISwipeGestureRecognizer"
+- "View"
+- !private "gesture"
+- !private "make"
+- "swipeGesture"
+depends-member:
+- ["s7CVarArgP", "Direction"]
+- !private ["s7CVarArgP", "direction"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["7RxCocoa12ControlEventV", "asObservable"]
+- !private ["7RxCocoa12ControlEventV", "init"]
+- !private ["7RxCocoa16ControlEventTypeP", "asObservable"]
+- !private ["7RxCocoa16ControlEventTypeP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Direction"]
+- !private ["s28CustomDebugStringConvertibleP", "direction"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "Direction"]
+- !private ["s23CustomStringConvertibleP", "direction"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["So33UISwipeGestureRecognizerDirectionV", "down"]
+- !private ["So33UISwipeGestureRecognizerDirectionV", "left"]
+- !private ["So33UISwipeGestureRecognizerDirectionV", "right"]
+- !private ["So33UISwipeGestureRecognizerDirectionV", "up"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- ["SQ", "=="]
+- ["SQ", "Direction"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "direction"]
+- ["SQ", "down"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- ["SQ", "left"]
+- !private ["SQ", "map"]
+- ["SQ", "right"]
+- ["SQ", "up"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "down"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "left"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "right"]
+- !private ["s25ExpressibleByArrayLiteralP", "up"]
+- ["9RxGesture7FactoryV", "AnyFactory"]
+- ["9RxGesture7FactoryV", "GestureRecognizer"]
+- ["9RxGesture7FactoryV", "SwipeConfiguration"]
+- ["9RxGesture7FactoryV", "SwipeDirection"]
+- ["9RxGesture7FactoryV", ""]
+- !private ["9RxGesture7FactoryV", "abstracted"]
+- !private ["9RxGesture7FactoryV", "make"]
+- ["9RxGesture7FactoryV", "swipe"]
+- ["SH", "=="]
+- ["SH", "Direction"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "direction"]
+- ["SH", "down"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- ["SH", "left"]
+- !private ["SH", "map"]
+- ["SH", "right"]
+- ["SH", "up"]
+- !private ["s6HasherV", "combine"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "Direction"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "direction"]
+- ["So8NSObjectP", "Direction"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "direction"]
+- !private ["7RxSwift10ObservableC", "merge"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "merge"]
+- !private ["7RxSwift14ObservableTypeP", ""]
+- !private ["7RxSwift14ObservableTypeP", "asObservable"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "merge"]
+- !private ["s9OptionSetP", "down"]
+- !private ["s9OptionSetP", "left"]
+- !private ["s9OptionSetP", "right"]
+- !private ["s9OptionSetP", "up"]
+- !private ["SY", ""]
+- !private ["SY", "down"]
+- !private ["SY", "left"]
+- !private ["SY", "right"]
+- !private ["SY", "up"]
+- !private ["7RxSwift8ReactiveV", "ControlEvent"]
+- !private ["7RxSwift8ReactiveV", "Observable"]
+- ["7RxSwift8ReactiveV", "Set"]
+- ["7RxSwift8ReactiveV", "SwipeConfiguration"]
+- ["7RxSwift8ReactiveV", "SwipeControlEvent"]
+- ["7RxSwift8ReactiveV", "SwipeDirection"]
+- ["7RxSwift8ReactiveV", "View"]
+- ["7RxSwift8ReactiveV", ""]
+- !private ["7RxSwift8ReactiveV", "gesture"]
+- !private ["7RxSwift8ReactiveV", "make"]
+- ["7RxSwift8ReactiveV", "swipeGesture"]
+- ["7RxSwift18ReactiveCompatibleP", "Direction"]
+- !private ["7RxSwift18ReactiveCompatibleP", "direction"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["Sh", "init"]
+- !private ["Sh", "map"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "down"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "left"]
+- !private ["s10SetAlgebraP", "map"]
+- !private ["s10SetAlgebraP", "right"]
+- !private ["s10SetAlgebraP", "up"]
+- ["9RxGesture14SwipeDirectionO", "=="]
+- ["9RxGesture14SwipeDirectionO", "SwipeGestureRecognizerDirection"]
+- ["9RxGesture14SwipeDirectionO", "UISwipeGestureRecognizer"]
+- ["9RxGesture14SwipeDirectionO", ""]
+- ["9RxGesture14SwipeDirectionO", "__derived_enum_equals"]
+- ["9RxGesture14SwipeDirectionO", "_rawHashValue"]
+- !private ["9RxGesture14SwipeDirectionO", "direction"]
+- ["9RxGesture14SwipeDirectionO", "down"]
+- ["9RxGesture14SwipeDirectionO", "hash"]
+- ["9RxGesture14SwipeDirectionO", "hashValue"]
+- ["9RxGesture14SwipeDirectionO", "left"]
+- ["9RxGesture14SwipeDirectionO", "right"]
+- ["9RxGesture14SwipeDirectionO", "up"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So20UIFocusItemContainerP", ""]
+- ["So19UIGestureRecognizerC", "Direction"]
+- ["So19UIGestureRecognizerC", ""]
+- !private ["So19UIGestureRecognizerC", "direction"]
+- ["So10UIKeyInputP", ""]
+- ["So24UISwipeGestureRecognizerC", "Direction"]
+- !private ["So24UISwipeGestureRecognizerC", "direction"]
+- ["So17UITextInputTraitsP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Direction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "direction"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Direction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "direction"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "Sl"
+- !private "7RxCocoa12ControlEventV"
+- !private "7RxCocoa16ControlEventTypeP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So33UISwipeGestureRecognizerDirectionV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "9RxGesture7FactoryV"
+- "SH"
+- !private "s6HasherV"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "s9OptionSetP"
+- !private "SY"
+- "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- "9RxGesture14SwipeDirectionO"
+- "So18UIFocusEnvironmentP"
+- "So20UIFocusItemContainerP"
+- "So19UIGestureRecognizerC"
+- "So10UIKeyInputP"
+- "So24UISwipeGestureRecognizerC"
+- "So17UITextInputTraitsP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxGesture/RxGesture-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxGesture.build/unextended-module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ca670d449c78b5f9738fa7065f9d1aff"

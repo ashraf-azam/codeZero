@@ -1,0 +1,276 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GestureRecognizerDelegatePolicy"
+- "RxGestureRecognizerDelegate"
+provides-nominal:
+- "9RxGesture0B24RecognizerDelegatePolicyV"
+- "9RxGesture0aB18RecognizerDelegateC"
+provides-member:
+- ["9RxGesture0B24RecognizerDelegatePolicyV", ""]
+- ["9RxGesture0aB18RecognizerDelegateC", ""]
+provides-dynamic-lookup:
+- "_pressReceptionPolicy"
+- "beginPolicy"
+- "gestureRecognizer"
+- "gestureRecognizerShouldBegin"
+- "otherFailureRequirementPolicy"
+- "pressReceptionPolicy"
+- "selfFailureRequirementPolicy"
+- "simultaneousRecognitionPolicy"
+- "touchReceptionPolicy"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "GestureRecognizer"
+- "GestureRecognizerDelegate"
+- "GestureRecognizerDelegatePolicy"
+- "NSObject"
+- "PolicyBody"
+- "PolicyInput"
+- "RxGestureRecognizerDelegate"
+- "Touch"
+- "UIGestureRecognizer"
+- "UIPress"
+- !private "_pressReceptionPolicy"
+- !private "beginPolicy"
+- !private "otherFailureRequirementPolicy"
+- !private "policy"
+- !private "pressReceptionPolicy"
+- !private "selfFailureRequirementPolicy"
+- !private "simultaneousRecognitionPolicy"
+- !private "touchReceptionPolicy"
+depends-member:
+- !private ["s7CVarArgP", "GestureRecognizerDelegatePolicy"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_pressReceptionPolicy"]
+- !private ["s7CVarArgP", "beginPolicy"]
+- ["s7CVarArgP", "gestureRecognizer"]
+- ["s7CVarArgP", "gestureRecognizerShouldBegin"]
+- !private ["s7CVarArgP", "otherFailureRequirementPolicy"]
+- !private ["s7CVarArgP", "pressReceptionPolicy"]
+- !private ["s7CVarArgP", "selfFailureRequirementPolicy"]
+- !private ["s7CVarArgP", "simultaneousRecognitionPolicy"]
+- !private ["s7CVarArgP", "touchReceptionPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "GestureRecognizerDelegatePolicy"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_pressReceptionPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "beginPolicy"]
+- ["s28CustomDebugStringConvertibleP", "gestureRecognizer"]
+- ["s28CustomDebugStringConvertibleP", "gestureRecognizerShouldBegin"]
+- !private ["s28CustomDebugStringConvertibleP", "otherFailureRequirementPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "pressReceptionPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "selfFailureRequirementPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "simultaneousRecognitionPolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "touchReceptionPolicy"]
+- !private ["s23CustomStringConvertibleP", "GestureRecognizerDelegatePolicy"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_pressReceptionPolicy"]
+- !private ["s23CustomStringConvertibleP", "beginPolicy"]
+- ["s23CustomStringConvertibleP", "gestureRecognizer"]
+- ["s23CustomStringConvertibleP", "gestureRecognizerShouldBegin"]
+- !private ["s23CustomStringConvertibleP", "otherFailureRequirementPolicy"]
+- !private ["s23CustomStringConvertibleP", "pressReceptionPolicy"]
+- !private ["s23CustomStringConvertibleP", "selfFailureRequirementPolicy"]
+- !private ["s23CustomStringConvertibleP", "simultaneousRecognitionPolicy"]
+- !private ["s23CustomStringConvertibleP", "touchReceptionPolicy"]
+- !private ["SQ", "GestureRecognizerDelegatePolicy"]
+- ["SQ", ""]
+- !private ["SQ", "_pressReceptionPolicy"]
+- !private ["SQ", "beginPolicy"]
+- ["SQ", "gestureRecognizer"]
+- ["SQ", "gestureRecognizerShouldBegin"]
+- !private ["SQ", "otherFailureRequirementPolicy"]
+- !private ["SQ", "pressReceptionPolicy"]
+- !private ["SQ", "selfFailureRequirementPolicy"]
+- !private ["SQ", "simultaneousRecognitionPolicy"]
+- !private ["SQ", "touchReceptionPolicy"]
+- ["9RxGesture0B24RecognizerDelegatePolicyV", "Bool"]
+- ["9RxGesture0B24RecognizerDelegatePolicyV", "GestureRecognizerDelegatePolicy"]
+- ["9RxGesture0B24RecognizerDelegatePolicyV", "PolicyBody"]
+- ["9RxGesture0B24RecognizerDelegatePolicyV", "always"]
+- ["9RxGesture0B24RecognizerDelegatePolicyV", "custom"]
+- !private ["9RxGesture0B24RecognizerDelegatePolicyV", "init"]
+- !private ["9RxGesture0B24RecognizerDelegatePolicyV", "isPolicyPassing"]
+- ["9RxGesture0B24RecognizerDelegatePolicyV", "never"]
+- !private ["9RxGesture0B24RecognizerDelegatePolicyV", "policy"]
+- !private ["SH", "GestureRecognizerDelegatePolicy"]
+- ["SH", ""]
+- !private ["SH", "_pressReceptionPolicy"]
+- !private ["SH", "beginPolicy"]
+- ["SH", "gestureRecognizer"]
+- ["SH", "gestureRecognizerShouldBegin"]
+- !private ["SH", "otherFailureRequirementPolicy"]
+- !private ["SH", "pressReceptionPolicy"]
+- !private ["SH", "selfFailureRequirementPolicy"]
+- !private ["SH", "simultaneousRecognitionPolicy"]
+- !private ["SH", "touchReceptionPolicy"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "GestureRecognizer"]
+- ["So8NSObjectC", "GestureRecognizerDelegatePolicy"]
+- ["So8NSObjectC", "Touch"]
+- ["So8NSObjectC", "UIGestureRecognizer"]
+- ["So8NSObjectC", "UIPress"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_pressReceptionPolicy"]
+- ["So8NSObjectC", "beginPolicy"]
+- ["So8NSObjectC", "gestureRecognizer"]
+- ["So8NSObjectC", "gestureRecognizerShouldBegin"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "otherFailureRequirementPolicy"]
+- ["So8NSObjectC", "pressReceptionPolicy"]
+- ["So8NSObjectC", "selfFailureRequirementPolicy"]
+- ["So8NSObjectC", "simultaneousRecognitionPolicy"]
+- ["So8NSObjectC", "touchReceptionPolicy"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "GestureRecognizer"]
+- ["So8NSObjectP", "GestureRecognizerDelegatePolicy"]
+- ["So8NSObjectP", "Touch"]
+- ["So8NSObjectP", "UIGestureRecognizer"]
+- ["So8NSObjectP", "UIPress"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "_pressReceptionPolicy"]
+- ["So8NSObjectP", "beginPolicy"]
+- ["So8NSObjectP", "deinit"]
+- ["So8NSObjectP", "gestureRecognizer"]
+- ["So8NSObjectP", "gestureRecognizerShouldBegin"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "otherFailureRequirementPolicy"]
+- ["So8NSObjectP", "pressReceptionPolicy"]
+- ["So8NSObjectP", "selfFailureRequirementPolicy"]
+- ["So8NSObjectP", "simultaneousRecognitionPolicy"]
+- ["So8NSObjectP", "touchReceptionPolicy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "GestureRecognizerDelegatePolicy"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "_pressReceptionPolicy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "beginPolicy"]
+- ["7RxSwift18ReactiveCompatibleP", "gestureRecognizer"]
+- ["7RxSwift18ReactiveCompatibleP", "gestureRecognizerShouldBegin"]
+- !private ["7RxSwift18ReactiveCompatibleP", "otherFailureRequirementPolicy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "pressReceptionPolicy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "selfFailureRequirementPolicy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "simultaneousRecognitionPolicy"]
+- !private ["7RxSwift18ReactiveCompatibleP", "touchReceptionPolicy"]
+- ["9RxGesture0aB18RecognizerDelegateC", "Bool"]
+- ["9RxGesture0aB18RecognizerDelegateC", "GestureRecognizer"]
+- ["9RxGesture0aB18RecognizerDelegateC", "GestureRecognizerDelegatePolicy"]
+- ["9RxGesture0aB18RecognizerDelegateC", "Touch"]
+- ["9RxGesture0aB18RecognizerDelegateC", "UIGestureRecognizer"]
+- ["9RxGesture0aB18RecognizerDelegateC", "UIPress"]
+- ["9RxGesture0aB18RecognizerDelegateC", ""]
+- !private ["9RxGesture0aB18RecognizerDelegateC", "_pressReceptionPolicy"]
+- ["9RxGesture0aB18RecognizerDelegateC", "beginPolicy"]
+- ["9RxGesture0aB18RecognizerDelegateC", "deinit"]
+- ["9RxGesture0aB18RecognizerDelegateC", "gestureRecognizer"]
+- ["9RxGesture0aB18RecognizerDelegateC", "gestureRecognizerShouldBegin"]
+- ["9RxGesture0aB18RecognizerDelegateC", "init"]
+- ["9RxGesture0aB18RecognizerDelegateC", "otherFailureRequirementPolicy"]
+- ["9RxGesture0aB18RecognizerDelegateC", "pressReceptionPolicy"]
+- ["9RxGesture0aB18RecognizerDelegateC", "selfFailureRequirementPolicy"]
+- ["9RxGesture0aB18RecognizerDelegateC", "simultaneousRecognitionPolicy"]
+- ["9RxGesture0aB18RecognizerDelegateC", "touchReceptionPolicy"]
+- !private ["So27UIGestureRecognizerDelegateP", "GestureRecognizerDelegatePolicy"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- ["So27UIGestureRecognizerDelegateP", "_pressReceptionPolicy"]
+- ["So27UIGestureRecognizerDelegateP", "beginPolicy"]
+- ["So27UIGestureRecognizerDelegateP", "deinit"]
+- ["So27UIGestureRecognizerDelegateP", "gestureRecognizer"]
+- ["So27UIGestureRecognizerDelegateP", "gestureRecognizerShouldBegin"]
+- ["So27UIGestureRecognizerDelegateP", "init"]
+- ["So27UIGestureRecognizerDelegateP", "otherFailureRequirementPolicy"]
+- ["So27UIGestureRecognizerDelegateP", "pressReceptionPolicy"]
+- ["So27UIGestureRecognizerDelegateP", "selfFailureRequirementPolicy"]
+- ["So27UIGestureRecognizerDelegateP", "simultaneousRecognitionPolicy"]
+- ["So27UIGestureRecognizerDelegateP", "touchReceptionPolicy"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GestureRecognizerDelegatePolicy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_pressReceptionPolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginPolicy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "gestureRecognizer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "gestureRecognizerShouldBegin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "otherFailureRequirementPolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pressReceptionPolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selfFailureRequirementPolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "simultaneousRecognitionPolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchReceptionPolicy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GestureRecognizerDelegatePolicy"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_pressReceptionPolicy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "beginPolicy"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "gestureRecognizer"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "gestureRecognizerShouldBegin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "otherFailureRequirementPolicy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pressReceptionPolicy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selfFailureRequirementPolicy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "simultaneousRecognitionPolicy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "touchReceptionPolicy"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "9RxGesture0B24RecognizerDelegatePolicyV"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "7RxSwift18ReactiveCompatibleP"
+- "9RxGesture0aB18RecognizerDelegateC"
+- "So27UIGestureRecognizerDelegateP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxGesture/RxGesture-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxGesture.build/unextended-module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "935214317c265822bd366ea3bd4cf3ed"

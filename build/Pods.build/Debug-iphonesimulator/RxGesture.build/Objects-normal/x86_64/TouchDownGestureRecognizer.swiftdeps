@@ -1,0 +1,386 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TouchDownGestureRecognizer"
+- "TouchDownConfiguration"
+- "TouchDownControlEvent"
+- "TouchDownObservable"
+provides-nominal:
+- "9RxGesture09TouchDownB10RecognizerC"
+provides-member:
+- ["9RxGesture09TouchDownB10RecognizerC", ""]
+- ["9RxGesture7FactoryV", ""]
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["9RxGesture7FactoryV", "touchDown"]
+- ["7RxSwift8ReactiveV", "touchDownGesture"]
+- ["7RxSwift14ObservableTypeP", "asTouches"]
+provides-dynamic-lookup:
+- "ignore"
+- "isTouchIgnoringEnabled"
+- "reset"
+- "touches"
+- "touchesBegan"
+- "touchesCancelled"
+- "touchesEnded"
+- "touchesMoved"
+depends-top-level:
+- "AnyFactory"
+- "Array"
+- "AssignmentPrecedence"
+- "Base"
+- "Bool"
+- "BooleanLiteralType"
+- "Configuration"
+- "ControlEvent"
+- "Element"
+- "Factory"
+- !private "FloatLiteralType"
+- "Gesture"
+- "GestureRecognizer"
+- "Observable"
+- "ObservableType"
+- "Reactive"
+- "Selector"
+- "Set"
+- "TouchDownConfiguration"
+- "TouchDownControlEvent"
+- "TouchDownGestureRecognizer"
+- "TouchDownObservable"
+- "UIEvent"
+- "UILongPressGestureRecognizer"
+- "UITouch"
+- "View"
+- !private "gesture"
+- !private "isTouchIgnoringEnabled"
+- !private "make"
+- !private "minimumPressDuration"
+- !private "touches"
+depends-member:
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "formUnion"]
+- !private ["s7CVarArgP", "ignore"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isTouchIgnoringEnabled"]
+- !private ["s7CVarArgP", "minimumPressDuration"]
+- !private ["s7CVarArgP", "reset"]
+- !private ["s7CVarArgP", "subtract"]
+- !private ["s7CVarArgP", "touches"]
+- !private ["s7CVarArgP", "touchesBegan"]
+- !private ["s7CVarArgP", "touchesCancelled"]
+- !private ["s7CVarArgP", "touchesEnded"]
+- !private ["s7CVarArgP", "touchesMoved"]
+- !private ["Sl", "formUnion"]
+- !private ["Sl", "subtract"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "formUnion"]
+- !private ["s28CustomDebugStringConvertibleP", "ignore"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isTouchIgnoringEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "minimumPressDuration"]
+- !private ["s28CustomDebugStringConvertibleP", "reset"]
+- !private ["s28CustomDebugStringConvertibleP", "subtract"]
+- !private ["s28CustomDebugStringConvertibleP", "touches"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesBegan"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesEnded"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesMoved"]
+- !private ["s17CustomReflectableP", "formUnion"]
+- !private ["s17CustomReflectableP", "subtract"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "formUnion"]
+- !private ["s23CustomStringConvertibleP", "ignore"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isTouchIgnoringEnabled"]
+- !private ["s23CustomStringConvertibleP", "minimumPressDuration"]
+- !private ["s23CustomStringConvertibleP", "reset"]
+- !private ["s23CustomStringConvertibleP", "subtract"]
+- !private ["s23CustomStringConvertibleP", "touches"]
+- !private ["s23CustomStringConvertibleP", "touchesBegan"]
+- !private ["s23CustomStringConvertibleP", "touchesCancelled"]
+- !private ["s23CustomStringConvertibleP", "touchesEnded"]
+- !private ["s23CustomStringConvertibleP", "touchesMoved"]
+- !private ["Se", "formUnion"]
+- !private ["Se", "subtract"]
+- !private ["SE", "formUnion"]
+- !private ["SE", "subtract"]
+- ["SQ", ""]
+- !private ["SQ", "formUnion"]
+- !private ["SQ", "ignore"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isTouchIgnoringEnabled"]
+- !private ["SQ", "minimumPressDuration"]
+- !private ["SQ", "reset"]
+- !private ["SQ", "subtract"]
+- !private ["SQ", "touches"]
+- !private ["SQ", "touchesBegan"]
+- !private ["SQ", "touchesCancelled"]
+- !private ["SQ", "touchesEnded"]
+- !private ["SQ", "touchesMoved"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subtract"]
+- ["9RxGesture7FactoryV", "AnyFactory"]
+- ["9RxGesture7FactoryV", "GestureRecognizer"]
+- ["9RxGesture7FactoryV", "TouchDownConfiguration"]
+- ["9RxGesture7FactoryV", ""]
+- !private ["9RxGesture7FactoryV", "abstracted"]
+- !private ["9RxGesture7FactoryV", "make"]
+- ["9RxGesture7FactoryV", "touchDown"]
+- ["SH", ""]
+- !private ["SH", "formUnion"]
+- !private ["SH", "ignore"]
+- !private ["SH", "init"]
+- !private ["SH", "isTouchIgnoringEnabled"]
+- !private ["SH", "minimumPressDuration"]
+- !private ["SH", "reset"]
+- !private ["SH", "subtract"]
+- !private ["SH", "touches"]
+- !private ["SH", "touchesBegan"]
+- !private ["SH", "touchesCancelled"]
+- !private ["SH", "touchesEnded"]
+- !private ["SH", "touchesMoved"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Selector"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "UIEvent"]
+- ["So8NSObjectC", "UITouch"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "ignore"]
+- ["So8NSObjectC", "ignorePress"]
+- ["So8NSObjectC", "ignoreTouch"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isTouchIgnoringEnabled"]
+- !private ["So8NSObjectC", "minimumPressDuration"]
+- ["So8NSObjectC", "reset"]
+- ["So8NSObjectC", "touches"]
+- ["So8NSObjectC", "touchesBegan"]
+- ["So8NSObjectC", "touchesCancelled"]
+- ["So8NSObjectC", "touchesEnded"]
+- ["So8NSObjectC", "touchesMoved"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "Selector"]
+- ["So8NSObjectP", "Set"]
+- ["So8NSObjectP", "UIEvent"]
+- ["So8NSObjectP", "UITouch"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "ignore"]
+- ["So8NSObjectP", "ignorePress"]
+- ["So8NSObjectP", "ignoreTouch"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isTouchIgnoringEnabled"]
+- !private ["So8NSObjectP", "minimumPressDuration"]
+- ["So8NSObjectP", "reset"]
+- ["So8NSObjectP", "touches"]
+- ["So8NSObjectP", "touchesBegan"]
+- ["So8NSObjectP", "touchesCancelled"]
+- ["So8NSObjectP", "touchesEnded"]
+- ["So8NSObjectP", "touchesMoved"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Element"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Set"]
+- ["7RxSwift25ObservableConvertibleTypeP", "TouchDownGestureRecognizer"]
+- ["7RxSwift25ObservableConvertibleTypeP", "UITouch"]
+- ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- ["7RxSwift14ObservableTypeP", "Element"]
+- ["7RxSwift14ObservableTypeP", "Observable"]
+- ["7RxSwift14ObservableTypeP", "Set"]
+- ["7RxSwift14ObservableTypeP", "TouchDownGestureRecognizer"]
+- ["7RxSwift14ObservableTypeP", "UITouch"]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "asTouches"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- ["7RxSwift8ReactiveV", "TouchDownConfiguration"]
+- ["7RxSwift8ReactiveV", "TouchDownControlEvent"]
+- ["7RxSwift8ReactiveV", "View"]
+- ["7RxSwift8ReactiveV", ""]
+- !private ["7RxSwift8ReactiveV", "gesture"]
+- !private ["7RxSwift8ReactiveV", "make"]
+- ["7RxSwift8ReactiveV", "touchDownGesture"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "ignore"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isTouchIgnoringEnabled"]
+- !private ["7RxSwift18ReactiveCompatibleP", "minimumPressDuration"]
+- !private ["7RxSwift18ReactiveCompatibleP", "reset"]
+- !private ["7RxSwift18ReactiveCompatibleP", "touches"]
+- !private ["7RxSwift18ReactiveCompatibleP", "touchesBegan"]
+- !private ["7RxSwift18ReactiveCompatibleP", "touchesCancelled"]
+- !private ["7RxSwift18ReactiveCompatibleP", "touchesEnded"]
+- !private ["7RxSwift18ReactiveCompatibleP", "touchesMoved"]
+- !private ["ST", ""]
+- !private ["ST", "formUnion"]
+- !private ["ST", "subtract"]
+- !private ["Sh", "formUnion"]
+- !private ["Sh", "subtract"]
+- !private ["s10SetAlgebraP", "formUnion"]
+- !private ["s10SetAlgebraP", "subtract"]
+- ["9RxGesture09TouchDownB10RecognizerC", "Bool"]
+- ["9RxGesture09TouchDownB10RecognizerC", "Selector"]
+- ["9RxGesture09TouchDownB10RecognizerC", "Set"]
+- ["9RxGesture09TouchDownB10RecognizerC", "UIEvent"]
+- ["9RxGesture09TouchDownB10RecognizerC", "UITouch"]
+- ["9RxGesture09TouchDownB10RecognizerC", ""]
+- ["9RxGesture09TouchDownB10RecognizerC", "deinit"]
+- ["9RxGesture09TouchDownB10RecognizerC", "ignore"]
+- ["9RxGesture09TouchDownB10RecognizerC", "init"]
+- ["9RxGesture09TouchDownB10RecognizerC", "isTouchIgnoringEnabled"]
+- !private ["9RxGesture09TouchDownB10RecognizerC", "minimumPressDuration"]
+- ["9RxGesture09TouchDownB10RecognizerC", "reset"]
+- ["9RxGesture09TouchDownB10RecognizerC", "touches"]
+- ["9RxGesture09TouchDownB10RecognizerC", "touchesBegan"]
+- ["9RxGesture09TouchDownB10RecognizerC", "touchesCancelled"]
+- ["9RxGesture09TouchDownB10RecognizerC", "touchesEnded"]
+- ["9RxGesture09TouchDownB10RecognizerC", "touchesMoved"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So19UIGestureRecognizerC", "Bool"]
+- ["So19UIGestureRecognizerC", "Selector"]
+- ["So19UIGestureRecognizerC", "Set"]
+- ["So19UIGestureRecognizerC", "UIEvent"]
+- ["So19UIGestureRecognizerC", "UITouch"]
+- ["So19UIGestureRecognizerC", ""]
+- ["So19UIGestureRecognizerC", "ignore"]
+- ["So19UIGestureRecognizerC", "init"]
+- ["So19UIGestureRecognizerC", "isTouchIgnoringEnabled"]
+- !private ["So19UIGestureRecognizerC", "minimumPressDuration"]
+- ["So19UIGestureRecognizerC", "reset"]
+- ["So19UIGestureRecognizerC", "touches"]
+- ["So19UIGestureRecognizerC", "touchesBegan"]
+- ["So19UIGestureRecognizerC", "touchesCancelled"]
+- ["So19UIGestureRecognizerC", "touchesEnded"]
+- ["So19UIGestureRecognizerC", "touchesMoved"]
+- ["So10UIKeyInputP", ""]
+- ["So28UILongPressGestureRecognizerC", "Bool"]
+- ["So28UILongPressGestureRecognizerC", "Selector"]
+- ["So28UILongPressGestureRecognizerC", "Set"]
+- ["So28UILongPressGestureRecognizerC", "UIEvent"]
+- ["So28UILongPressGestureRecognizerC", "UITouch"]
+- ["So28UILongPressGestureRecognizerC", ""]
+- ["So28UILongPressGestureRecognizerC", "ignore"]
+- ["So28UILongPressGestureRecognizerC", "init"]
+- ["So28UILongPressGestureRecognizerC", "isTouchIgnoringEnabled"]
+- !private ["So28UILongPressGestureRecognizerC", "minimumPressDuration"]
+- ["So28UILongPressGestureRecognizerC", "reset"]
+- ["So28UILongPressGestureRecognizerC", "touches"]
+- ["So28UILongPressGestureRecognizerC", "touchesBegan"]
+- ["So28UILongPressGestureRecognizerC", "touchesCancelled"]
+- ["So28UILongPressGestureRecognizerC", "touchesEnded"]
+- ["So28UILongPressGestureRecognizerC", "touchesMoved"]
+- ["So17UITextInputTraitsP", ""]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "formUnion"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subtract"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ignore"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isTouchIgnoringEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "minimumPressDuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reset"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touches"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesBegan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesEnded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesMoved"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ignore"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isTouchIgnoringEnabled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "minimumPressDuration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reset"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "touches"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "touchesBegan"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "touchesCancelled"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "touchesEnded"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "touchesMoved"]
+- !private ["s21_ObjectiveCBridgeableP", "formUnion"]
+- !private ["s21_ObjectiveCBridgeableP", "subtract"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "9RxGesture7FactoryV"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- "9RxGesture09TouchDownB10RecognizerC"
+- "So20UIFocusItemContainerP"
+- "So19UIGestureRecognizerC"
+- "So10UIKeyInputP"
+- "So28UILongPressGestureRecognizerC"
+- "So17UITextInputTraitsP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxGesture/RxGesture-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxGesture.build/unextended-module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ec0e49ae76fd9c5f6df60f208413bc5c"

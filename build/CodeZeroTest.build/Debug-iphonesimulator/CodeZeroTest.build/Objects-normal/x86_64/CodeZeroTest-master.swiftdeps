@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "f65692472c2832045eb7181923eb090f"
+build_time: [1616943455, 113774000]
+inputs:
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/CodeZeroTest/CollectionView/CardCollectionView/CardCollectionViewCell.swift": [1616939579, 92120879]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/CodeZeroTest/ViewController.swift": [1616942642, 261982]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/CodeZeroTest/AppDelegate.swift": [1616921263, 343158497]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/CodeZeroTest/Network/AppConstant.swift": [1616943190, 509298010]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/CodeZeroTest/Extension/StringBoolTransformer.swift": [1616943390, 380801868]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/CodeZeroTest/SceneDelegate.swift": [1616895532, 330976046]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/CodeZeroTest/Model/CardModel.swift": [1616943174, 897856322]

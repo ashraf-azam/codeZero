@@ -1,0 +1,699 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PowerPrecedence"
+- "**"
+- "**"
+- "\u221A"
+- "\u221A"
+- "\xB1"
+- "\xB1"
+- "\xB1"
+- "\xB1"
+provides-nominal:
+provides-member:
+- ["Si", ""]
+- ["Si", "countableRange"]
+- ["Si", "degreesToRadians"]
+- ["Si", "radiansToDegrees"]
+- ["Si", "uInt"]
+- ["Si", "double"]
+- ["Si", "float"]
+- ["Si", "cgFloat"]
+- ["Si", "kFormatted"]
+- ["Si", "digits"]
+- ["Si", "digitsCount"]
+- ["Si", "isPrime"]
+- ["Si", "romanNumeral"]
+- ["Si", "roundToNearest"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "%"
+- !private "&&"
+- !private "*"
+- "**"
+- !private "+"
+- "+="
+- !private "-"
+- "-="
+- !private "..<"
+- !private "/"
+- !private "/="
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- !private "Array"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CountableRange"
+- "DefaultPrecedence"
+- "Double"
+- "Float"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "MultiplicationPrecedence"
+- "String"
+- !private "StringLiteralType"
+- !private "Swift"
+- "TernaryPrecedence"
+- "UInt"
+- !private "UnicodeScalarType"
+- !private "log10"
+- !private "pow"
+- !private "round"
+- !private "sqrt"
+- "\xB1"
+- "\u221A"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "CGFloat"]
+- !private ["s18AdditiveArithmeticP", "Double"]
+- !private ["s18AdditiveArithmeticP", "Float"]
+- !private ["s18AdditiveArithmeticP", "Int"]
+- !private ["s18AdditiveArithmeticP", "String"]
+- !private ["s18AdditiveArithmeticP", "Swift"]
+- !private ["s18AdditiveArithmeticP", "UInt"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "abs"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "log10"]
+- !private ["s18AdditiveArithmeticP", "pi"]
+- !private ["s18AdditiveArithmeticP", "round"]
+- !private ["s18AdditiveArithmeticP", "sqrt"]
+- !private ["Sa", "append"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reverse"]
+- !private ["Sa", "subscript"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "init"]
+- !private ["SK", "reverse"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["SB", "pi"]
+- !private ["Sz", "CGFloat"]
+- !private ["Sz", "Double"]
+- !private ["Sz", "Float"]
+- !private ["Sz", "Int"]
+- !private ["Sz", "String"]
+- !private ["Sz", "Swift"]
+- !private ["Sz", "UInt"]
+- !private ["Sz", ""]
+- !private ["Sz", "abs"]
+- !private ["Sz", "init"]
+- !private ["Sz", "log10"]
+- !private ["Sz", "round"]
+- !private ["Sz", "sqrt"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "CGFloat"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "Swift"]
+- !private ["s7CVarArgP", "UInt"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "abs"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "log10"]
+- !private ["s7CVarArgP", "pi"]
+- !private ["s7CVarArgP", "reverse"]
+- !private ["s7CVarArgP", "round"]
+- !private ["s7CVarArgP", "sqrt"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "init"]
+- !private ["Sl", "reverse"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "CGFloat"]
+- !private ["SL", "Double"]
+- !private ["SL", "Float"]
+- !private ["SL", "Int"]
+- !private ["SL", "String"]
+- !private ["SL", "Swift"]
+- !private ["SL", "UInt"]
+- !private ["SL", ""]
+- !private ["SL", "abs"]
+- !private ["SL", "init"]
+- !private ["SL", "log10"]
+- !private ["SL", "pi"]
+- !private ["SL", "round"]
+- !private ["SL", "sqrt"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "reverse"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pi"]
+- !private ["s28CustomDebugStringConvertibleP", "reverse"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "CGFloat"]
+- !private ["s17CustomReflectableP", "Double"]
+- !private ["s17CustomReflectableP", "Float"]
+- !private ["s17CustomReflectableP", "Int"]
+- !private ["s17CustomReflectableP", "String"]
+- !private ["s17CustomReflectableP", "Swift"]
+- !private ["s17CustomReflectableP", "UInt"]
+- !private ["s17CustomReflectableP", "abs"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "log10"]
+- !private ["s17CustomReflectableP", "pi"]
+- !private ["s17CustomReflectableP", "reverse"]
+- !private ["s17CustomReflectableP", "round"]
+- !private ["s17CustomReflectableP", "sqrt"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "Swift"]
+- !private ["s23CustomStringConvertibleP", "UInt"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "abs"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "log10"]
+- !private ["s23CustomStringConvertibleP", "pi"]
+- !private ["s23CustomStringConvertibleP", "reverse"]
+- !private ["s23CustomStringConvertibleP", "round"]
+- !private ["s23CustomStringConvertibleP", "sqrt"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "reverse"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "CGFloat"]
+- !private ["Se", "Double"]
+- !private ["Se", "Float"]
+- !private ["Se", "Int"]
+- !private ["Se", "String"]
+- !private ["Se", "Swift"]
+- !private ["Se", "UInt"]
+- !private ["Se", "abs"]
+- !private ["Se", "append"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "init"]
+- !private ["Se", "log10"]
+- !private ["Se", "pi"]
+- !private ["Se", "reverse"]
+- !private ["Se", "round"]
+- !private ["Se", "sqrt"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "init"]
+- !private ["Sd", "pi"]
+- !private ["SE", "CGFloat"]
+- !private ["SE", "Double"]
+- !private ["SE", "Float"]
+- !private ["SE", "Int"]
+- !private ["SE", "String"]
+- !private ["SE", "Swift"]
+- !private ["SE", "UInt"]
+- !private ["SE", "abs"]
+- !private ["SE", "append"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "init"]
+- !private ["SE", "log10"]
+- !private ["SE", "pi"]
+- !private ["SE", "reverse"]
+- !private ["SE", "round"]
+- !private ["SE", "sqrt"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "CGFloat"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "String"]
+- !private ["SQ", "Swift"]
+- !private ["SQ", "UInt"]
+- !private ["SQ", ""]
+- !private ["SQ", "abs"]
+- !private ["SQ", "append"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "init"]
+- !private ["SQ", "log10"]
+- !private ["SQ", "pi"]
+- !private ["SQ", "reverse"]
+- !private ["SQ", "round"]
+- !private ["SQ", "sqrt"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reverse"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "CGFloat"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Float"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Int"]
+- !private ["s27ExpressibleByIntegerLiteralP", "String"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Swift"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UInt"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "abs"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "log10"]
+- !private ["s27ExpressibleByIntegerLiteralP", "pi"]
+- !private ["s27ExpressibleByIntegerLiteralP", "round"]
+- !private ["s27ExpressibleByIntegerLiteralP", "sqrt"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "CGFloat"]
+- !private ["s17FixedWidthIntegerP", "Double"]
+- !private ["s17FixedWidthIntegerP", "Float"]
+- !private ["s17FixedWidthIntegerP", "Int"]
+- !private ["s17FixedWidthIntegerP", "String"]
+- !private ["s17FixedWidthIntegerP", "Swift"]
+- !private ["s17FixedWidthIntegerP", "UInt"]
+- !private ["s17FixedWidthIntegerP", "abs"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "log10"]
+- !private ["s17FixedWidthIntegerP", "round"]
+- !private ["s17FixedWidthIntegerP", "sqrt"]
+- !private ["Sf", "init"]
+- !private ["SF", ""]
+- !private ["SF", "init"]
+- !private ["SF", "pi"]
+- !private ["SH", "CGFloat"]
+- !private ["SH", "Double"]
+- !private ["SH", "Float"]
+- !private ["SH", "Int"]
+- !private ["SH", "String"]
+- !private ["SH", "Swift"]
+- !private ["SH", "UInt"]
+- !private ["SH", ""]
+- !private ["SH", "abs"]
+- !private ["SH", "append"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "init"]
+- !private ["SH", "log10"]
+- !private ["SH", "pi"]
+- !private ["SH", "reverse"]
+- !private ["SH", "round"]
+- !private ["SH", "sqrt"]
+- !private ["SH", "subscript"]
+- ["Si", "Bool"]
+- ["Si", "CGFloat"]
+- ["Si", "CountableRange"]
+- ["Si", "Double"]
+- ["Si", "Float"]
+- ["Si", "Int"]
+- ["Si", "String"]
+- !private ["Si", "Swift"]
+- ["Si", "UInt"]
+- ["Si", ""]
+- !private ["Si", "abs"]
+- ["Si", "cgFloat"]
+- ["Si", "countableRange"]
+- ["Si", "degreesToRadians"]
+- ["Si", "digits"]
+- ["Si", "digitsCount"]
+- ["Si", "double"]
+- ["Si", "float"]
+- !private ["Si", "init"]
+- ["Si", "isPrime"]
+- ["Si", "kFormatted"]
+- !private ["Si", "log10"]
+- ["Si", "radiansToDegrees"]
+- ["Si", "romanNumeral"]
+- !private ["Si", "round"]
+- ["Si", "roundToNearest"]
+- !private ["Si", "sqrt"]
+- ["Si", "uInt"]
+- !private ["s25LosslessStringConvertibleP", "CGFloat"]
+- !private ["s25LosslessStringConvertibleP", "Double"]
+- !private ["s25LosslessStringConvertibleP", "Float"]
+- !private ["s25LosslessStringConvertibleP", "Int"]
+- !private ["s25LosslessStringConvertibleP", "String"]
+- !private ["s25LosslessStringConvertibleP", "Swift"]
+- !private ["s25LosslessStringConvertibleP", "UInt"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "abs"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "log10"]
+- !private ["s25LosslessStringConvertibleP", "pi"]
+- !private ["s25LosslessStringConvertibleP", "round"]
+- !private ["s25LosslessStringConvertibleP", "sqrt"]
+- !private ["s10MirrorPathP", "CGFloat"]
+- !private ["s10MirrorPathP", "Double"]
+- !private ["s10MirrorPathP", "Float"]
+- !private ["s10MirrorPathP", "Int"]
+- !private ["s10MirrorPathP", "String"]
+- !private ["s10MirrorPathP", "Swift"]
+- !private ["s10MirrorPathP", "UInt"]
+- !private ["s10MirrorPathP", "abs"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "log10"]
+- !private ["s10MirrorPathP", "round"]
+- !private ["s10MirrorPathP", "sqrt"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "init"]
+- !private ["SM", "reverse"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "reverse"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sj", "CGFloat"]
+- !private ["Sj", "Double"]
+- !private ["Sj", "Float"]
+- !private ["Sj", "Int"]
+- !private ["Sj", "String"]
+- !private ["Sj", "Swift"]
+- !private ["Sj", "UInt"]
+- !private ["Sj", ""]
+- !private ["Sj", "abs"]
+- !private ["Sj", "init"]
+- !private ["Sj", "log10"]
+- !private ["Sj", "pi"]
+- !private ["Sj", "round"]
+- !private ["Sj", "sqrt"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "init"]
+- !private ["Sk", "reverse"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "init"]
+- !private ["Sm", "reverse"]
+- !private ["Sm", "subscript"]
+- !private ["s10SIMDScalarP", "CGFloat"]
+- !private ["s10SIMDScalarP", "Double"]
+- !private ["s10SIMDScalarP", "Float"]
+- !private ["s10SIMDScalarP", "Int"]
+- !private ["s10SIMDScalarP", "String"]
+- !private ["s10SIMDScalarP", "Swift"]
+- !private ["s10SIMDScalarP", "UInt"]
+- !private ["s10SIMDScalarP", "abs"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "log10"]
+- !private ["s10SIMDScalarP", "pi"]
+- !private ["s10SIMDScalarP", "round"]
+- !private ["s10SIMDScalarP", "sqrt"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "reverse"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "CGFloat"]
+- !private ["SZ", "Double"]
+- !private ["SZ", "Float"]
+- !private ["SZ", "Int"]
+- !private ["SZ", "String"]
+- !private ["SZ", "Swift"]
+- !private ["SZ", "UInt"]
+- !private ["SZ", "abs"]
+- !private ["SZ", "init"]
+- !private ["SZ", "log10"]
+- !private ["SZ", "round"]
+- !private ["SZ", "sqrt"]
+- !private ["s13SignedNumericP", "CGFloat"]
+- !private ["s13SignedNumericP", "Double"]
+- !private ["s13SignedNumericP", "Float"]
+- !private ["s13SignedNumericP", "Int"]
+- !private ["s13SignedNumericP", "String"]
+- !private ["s13SignedNumericP", "Swift"]
+- !private ["s13SignedNumericP", "UInt"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "abs"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "log10"]
+- !private ["s13SignedNumericP", "pi"]
+- !private ["s13SignedNumericP", "round"]
+- !private ["s13SignedNumericP", "sqrt"]
+- !private ["Sx", "CGFloat"]
+- !private ["Sx", "Double"]
+- !private ["Sx", "Float"]
+- !private ["Sx", "Int"]
+- !private ["Sx", "String"]
+- !private ["Sx", "Swift"]
+- !private ["Sx", "UInt"]
+- !private ["Sx", ""]
+- !private ["Sx", "abs"]
+- !private ["Sx", "init"]
+- !private ["Sx", "log10"]
+- !private ["Sx", "pi"]
+- !private ["Sx", "round"]
+- !private ["Sx", "sqrt"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "pi"]
+- !private ["Su", "init"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reverse"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s15_CVarArgAlignedP", "pi"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "pi"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "CGFloat"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Double"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Float"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Int"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "String"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Swift"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "UInt"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "abs"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "log10"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pi"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "round"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "sqrt"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reverse"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "pi"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "CGFloat"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Double"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Float"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Int"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "String"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Swift"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UInt"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "abs"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "log10"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "pi"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "round"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "sqrt"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "reverse"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "CGFloat"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Double"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Float"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Int"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "String"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Swift"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UInt"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "abs"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "log10"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "pi"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reverse"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "round"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sqrt"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "CGFloat"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- !private ["s21_ObjectiveCBridgeableP", "Float"]
+- !private ["s21_ObjectiveCBridgeableP", "Int"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- !private ["s21_ObjectiveCBridgeableP", "Swift"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt"]
+- !private ["s21_ObjectiveCBridgeableP", "abs"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "log10"]
+- !private ["s21_ObjectiveCBridgeableP", "pi"]
+- !private ["s21_ObjectiveCBridgeableP", "reverse"]
+- !private ["s21_ObjectiveCBridgeableP", "round"]
+- !private ["s21_ObjectiveCBridgeableP", "sqrt"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "12CoreGraphics7CGFloatV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "SF"
+- !private "SH"
+- "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Su"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SpriteKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/SwifterSwift/SwifterSwift-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/SwifterSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/SpriteKit.framework/Headers/SpriteKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3f2bca77bba60033677f4e2bd456fb53"

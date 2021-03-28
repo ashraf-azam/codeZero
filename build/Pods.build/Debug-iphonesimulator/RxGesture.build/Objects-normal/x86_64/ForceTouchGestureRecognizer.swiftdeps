@@ -1,0 +1,644 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ForceTouchGestureRecognizer"
+- "ForceTouchConfiguration"
+- "ForceTouchControlEvent"
+- "ForceTouchObservable"
+provides-nominal:
+- "9RxGesture010ForceTouchB10RecognizerC"
+provides-member:
+- ["9RxGesture010ForceTouchB10RecognizerC", ""]
+- ["9RxGesture7FactoryV", ""]
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["9RxGesture7FactoryV", "forceTouch"]
+- ["7RxSwift8ReactiveV", "forceTouchGesture"]
+- ["7RxSwift14ObservableTypeP", "asForce"]
+provides-dynamic-lookup:
+- "force"
+- "fractionCompleted"
+- "maximumPossibleForce"
+- "numberOfTouchesRequired"
+- "setForce"
+- "touchesBegan"
+- "touchesEnded"
+- "touchesMoved"
+depends-top-level:
+- !private "+"
+- !private "..."
+- !private "/"
+- !private "=="
+- !private ">"
+- "AnyFactory"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Base"
+- "CGFloat"
+- "Configuration"
+- "ControlEvent"
+- "Element"
+- "Factory"
+- "FloatLiteralType"
+- "ForceTouchConfiguration"
+- "ForceTouchControlEvent"
+- "ForceTouchGestureRecognizer"
+- "ForceTouchObservable"
+- "Gesture"
+- "GestureRecognizer"
+- "Int"
+- "IntegerLiteralType"
+- "Observable"
+- "ObservableType"
+- "Reactive"
+- "Set"
+- "UIEvent"
+- "UIGestureRecognizer"
+- "UITouch"
+- "View"
+- !private "force"
+- !private "gesture"
+- !private "make"
+- !private "maximumPossibleForce"
+- !private "numberOfTouchesRequired"
+- !private "setForce"
+- !private "state"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "lazy"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["SK", "lazy"]
+- !private ["SK", "map"]
+- !private ["SK", "reduce"]
+- !private ["SK", "subscript"]
+- !private ["SB", "binade"]
+- !private ["SB", "exponentBitCount"]
+- !private ["SB", "exponentBitPattern"]
+- !private ["SB", "init"]
+- !private ["SB", "isTotallyOrdered"]
+- !private ["SB", "radix"]
+- !private ["SB", "significandBitCount"]
+- !private ["SB", "significandBitPattern"]
+- !private ["SB", "significandWidth"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "Array"]
+- !private ["s7CVarArgP", "CGFloat"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "force"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "maximumPossibleForce"]
+- !private ["s7CVarArgP", "numberOfTouchesRequired"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "setForce"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "touchesBegan"]
+- !private ["s7CVarArgP", "touchesEnded"]
+- !private ["s7CVarArgP", "touchesMoved"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "lazy"]
+- !private ["Sl", "map"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "<"]
+- !private ["SL", "<="]
+- !private ["SL", ">"]
+- !private ["SL", ">="]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "lazy"]
+- !private ["10Foundation15ContiguousBytesP", "reduce"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "CGFloat"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "force"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lazy"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumPossibleForce"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfTouchesRequired"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "setForce"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesBegan"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesEnded"]
+- !private ["s28CustomDebugStringConvertibleP", "touchesMoved"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lazy"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- !private ["s23CustomStringConvertibleP", "CGFloat"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "began"]
+- !private ["s23CustomStringConvertibleP", "changed"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "ended"]
+- !private ["s23CustomStringConvertibleP", "failed"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "force"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lazy"]
+- !private ["s23CustomStringConvertibleP", "maximumPossibleForce"]
+- !private ["s23CustomStringConvertibleP", "numberOfTouchesRequired"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "setForce"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "touchesBegan"]
+- !private ["s23CustomStringConvertibleP", "touchesEnded"]
+- !private ["s23CustomStringConvertibleP", "touchesMoved"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "lazy"]
+- !private ["10Foundation12DataProtocolP", "reduce"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "reduce"]
+- !private ["Se", "subscript"]
+- !private ["SE", "count"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "reduce"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Array"]
+- !private ["SQ", "CGFloat"]
+- ["SQ", ""]
+- !private ["SQ", "began"]
+- !private ["SQ", "changed"]
+- !private ["SQ", "count"]
+- !private ["SQ", "ended"]
+- !private ["SQ", "failed"]
+- !private ["SQ", "first"]
+- !private ["SQ", "force"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lazy"]
+- !private ["SQ", "maximumPossibleForce"]
+- !private ["SQ", "numberOfTouchesRequired"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "setForce"]
+- !private ["SQ", "state"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "touchesBegan"]
+- !private ["SQ", "touchesEnded"]
+- !private ["SQ", "touchesMoved"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "lazy"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["9RxGesture7FactoryV", "AnyFactory"]
+- ["9RxGesture7FactoryV", "ForceTouchConfiguration"]
+- ["9RxGesture7FactoryV", "GestureRecognizer"]
+- ["9RxGesture7FactoryV", ""]
+- !private ["9RxGesture7FactoryV", "abstracted"]
+- ["9RxGesture7FactoryV", "forceTouch"]
+- !private ["9RxGesture7FactoryV", "make"]
+- !private ["SF", "*"]
+- !private ["SF", "*="]
+- !private ["SF", "+"]
+- !private ["SF", "+="]
+- !private ["SF", "-"]
+- !private ["SF", "-="]
+- !private ["SF", "/"]
+- !private ["SF", "/="]
+- !private ["SF", "<"]
+- !private ["SF", "<="]
+- !private ["SF", ">"]
+- !private ["SF", ">="]
+- !private ["SF", ""]
+- !private ["SF", "addProduct"]
+- !private ["SF", "addingProduct"]
+- !private ["SF", "exponent"]
+- !private ["SF", "floatingPointClass"]
+- !private ["SF", "formRemainder"]
+- !private ["SF", "formSquareRoot"]
+- !private ["SF", "formTruncatingRemainder"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "infinity"]
+- !private ["SF", "init"]
+- !private ["SF", "isCanonical"]
+- !private ["SF", "isEqual"]
+- !private ["SF", "isFinite"]
+- !private ["SF", "isInfinite"]
+- !private ["SF", "isLess"]
+- !private ["SF", "isLessThanOrEqualTo"]
+- !private ["SF", "isNaN"]
+- !private ["SF", "isNormal"]
+- !private ["SF", "isSignalingNaN"]
+- !private ["SF", "isSubnormal"]
+- !private ["SF", "isTotallyOrdered"]
+- !private ["SF", "isZero"]
+- !private ["SF", "leastNonzeroMagnitude"]
+- !private ["SF", "leastNormalMagnitude"]
+- !private ["SF", "maximum"]
+- !private ["SF", "maximumMagnitude"]
+- !private ["SF", "minimum"]
+- !private ["SF", "minimumMagnitude"]
+- !private ["SF", "nan"]
+- !private ["SF", "negate"]
+- !private ["SF", "nextDown"]
+- !private ["SF", "nextUp"]
+- !private ["SF", "pi"]
+- !private ["SF", "radix"]
+- !private ["SF", "remainder"]
+- !private ["SF", "round"]
+- !private ["SF", "rounded"]
+- !private ["SF", "sign"]
+- !private ["SF", "signalingNaN"]
+- !private ["SF", "significand"]
+- !private ["SF", "squareRoot"]
+- !private ["SF", "truncatingRemainder"]
+- !private ["SF", "ulp"]
+- !private ["SF", "ulpOfOne"]
+- !private ["9RxGesture010ForceTouchB10RecognizerC", "Array"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "CGFloat"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "Int"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "Set"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "UIEvent"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "UITouch"]
+- ["9RxGesture010ForceTouchB10RecognizerC", ""]
+- ["9RxGesture010ForceTouchB10RecognizerC", "deinit"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "force"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "fractionCompleted"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "init"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "maximumPossibleForce"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "numberOfTouchesRequired"]
+- !private ["9RxGesture010ForceTouchB10RecognizerC", "setForce"]
+- !private ["9RxGesture010ForceTouchB10RecognizerC", "state"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "touchesBegan"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "touchesEnded"]
+- ["9RxGesture010ForceTouchB10RecognizerC", "touchesMoved"]
+- !private ["SH", "Array"]
+- !private ["SH", "CGFloat"]
+- ["SH", ""]
+- !private ["SH", "began"]
+- !private ["SH", "changed"]
+- !private ["SH", "count"]
+- !private ["SH", "ended"]
+- !private ["SH", "failed"]
+- !private ["SH", "first"]
+- !private ["SH", "force"]
+- !private ["SH", "init"]
+- !private ["SH", "lazy"]
+- !private ["SH", "maximumPossibleForce"]
+- !private ["SH", "numberOfTouchesRequired"]
+- !private ["SH", "reduce"]
+- !private ["SH", "setForce"]
+- !private ["SH", "state"]
+- !private ["SH", "subscript"]
+- !private ["SH", "touchesBegan"]
+- !private ["SH", "touchesEnded"]
+- !private ["SH", "touchesMoved"]
+- !private ["s22LazyCollectionProtocolP", "map"]
+- !private ["s22LazyCollectionProtocolP", "reduce"]
+- !private ["s15LazyMapSequenceV", "reduce"]
+- !private ["s12LazySequenceV", "map"]
+- !private ["s20LazySequenceProtocolP", "Element"]
+- !private ["s20LazySequenceProtocolP", ""]
+- !private ["s20LazySequenceProtocolP", "map"]
+- !private ["s20LazySequenceProtocolP", "reduce"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["SM", ""]
+- !private ["SM", "init"]
+- !private ["SM", "lazy"]
+- !private ["SM", "reduce"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "reduce"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "UIEvent"]
+- ["So8NSObjectC", "UITouch"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "force"]
+- ["So8NSObjectC", "fractionCompleted"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "maximumPossibleForce"]
+- ["So8NSObjectC", "numberOfTouchesRequired"]
+- ["So8NSObjectC", "setForce"]
+- !private ["So8NSObjectC", "state"]
+- ["So8NSObjectC", "touchesBegan"]
+- ["So8NSObjectC", "touchesEnded"]
+- ["So8NSObjectC", "touchesMoved"]
+- !private ["So8NSObjectP", "Array"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "Set"]
+- ["So8NSObjectP", "UIEvent"]
+- ["So8NSObjectP", "UITouch"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "force"]
+- ["So8NSObjectP", "fractionCompleted"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "maximumPossibleForce"]
+- ["So8NSObjectP", "numberOfTouchesRequired"]
+- ["So8NSObjectP", "setForce"]
+- !private ["So8NSObjectP", "state"]
+- ["So8NSObjectP", "touchesBegan"]
+- ["So8NSObjectP", "touchesEnded"]
+- ["So8NSObjectP", "touchesMoved"]
+- !private ["Sj", "*"]
+- !private ["Sj", "*="]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["Sj", "magnitude"]
+- ["7RxSwift25ObservableConvertibleTypeP", "CGFloat"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Element"]
+- ["7RxSwift25ObservableConvertibleTypeP", "ForceTouchGestureRecognizer"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- ["7RxSwift14ObservableTypeP", "CGFloat"]
+- ["7RxSwift14ObservableTypeP", "Element"]
+- ["7RxSwift14ObservableTypeP", "ForceTouchGestureRecognizer"]
+- ["7RxSwift14ObservableTypeP", "Observable"]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "asForce"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["Sk", ""]
+- !private ["Sk", "init"]
+- !private ["Sk", "lazy"]
+- !private ["Sk", "map"]
+- !private ["Sk", "reduce"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["Sm", "lazy"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "began"]
+- !private ["SY", "changed"]
+- !private ["SY", "ended"]
+- !private ["SY", "failed"]
+- ["7RxSwift8ReactiveV", "ForceTouchConfiguration"]
+- ["7RxSwift8ReactiveV", "ForceTouchControlEvent"]
+- ["7RxSwift8ReactiveV", "View"]
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift8ReactiveV", "forceTouchGesture"]
+- !private ["7RxSwift8ReactiveV", "gesture"]
+- !private ["7RxSwift8ReactiveV", "make"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Array"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGFloat"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "force"]
+- !private ["7RxSwift18ReactiveCompatibleP", "maximumPossibleForce"]
+- !private ["7RxSwift18ReactiveCompatibleP", "numberOfTouchesRequired"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setForce"]
+- !private ["7RxSwift18ReactiveCompatibleP", "state"]
+- !private ["7RxSwift18ReactiveCompatibleP", "touchesBegan"]
+- !private ["7RxSwift18ReactiveCompatibleP", "touchesEnded"]
+- !private ["7RxSwift18ReactiveCompatibleP", "touchesMoved"]
+- !private ["ST", "Element"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "lazy"]
+- !private ["ST", "map"]
+- !private ["ST", "reduce"]
+- !private ["ST", "subscript"]
+- !private ["Sh", "count"]
+- !private ["Sh", "first"]
+- !private ["s10SetAlgebraP", "count"]
+- !private ["s10SetAlgebraP", "first"]
+- !private ["s13SignedNumericP", "-"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["So24UIGestureRecognizerStateV", "began"]
+- !private ["So24UIGestureRecognizerStateV", "changed"]
+- !private ["So24UIGestureRecognizerStateV", "ended"]
+- !private ["So24UIGestureRecognizerStateV", "failed"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So19UIGestureRecognizerC", "Array"]
+- ["So19UIGestureRecognizerC", "CGFloat"]
+- ["So19UIGestureRecognizerC", "Int"]
+- ["So19UIGestureRecognizerC", "Set"]
+- ["So19UIGestureRecognizerC", "UIEvent"]
+- ["So19UIGestureRecognizerC", "UITouch"]
+- ["So19UIGestureRecognizerC", ""]
+- ["So19UIGestureRecognizerC", "force"]
+- ["So19UIGestureRecognizerC", "fractionCompleted"]
+- ["So19UIGestureRecognizerC", "init"]
+- ["So19UIGestureRecognizerC", "maximumPossibleForce"]
+- ["So19UIGestureRecognizerC", "numberOfTouchesRequired"]
+- ["So19UIGestureRecognizerC", "setForce"]
+- !private ["So19UIGestureRecognizerC", "state"]
+- ["So19UIGestureRecognizerC", "touchesBegan"]
+- ["So19UIGestureRecognizerC", "touchesEnded"]
+- ["So19UIGestureRecognizerC", "touchesMoved"]
+- ["So10UIKeyInputP", ""]
+- ["So17UITextInputTraitsP", ""]
+- !private ["So7UITouchC", "force"]
+- !private ["So7UITouchC", "maximumPossibleForce"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "lazy"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "lazy"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Array"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGFloat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "force"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumPossibleForce"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfTouchesRequired"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setForce"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesBegan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesEnded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "touchesMoved"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Array"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CGFloat"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "force"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maximumPossibleForce"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfTouchesRequired"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setForce"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "state"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "touchesBegan"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "touchesEnded"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "touchesMoved"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "SB"
+- !private "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "9RxGesture7FactoryV"
+- !private "SF"
+- "9RxGesture010ForceTouchB10RecognizerC"
+- "SH"
+- !private "s22LazyCollectionProtocolP"
+- !private "s15LazyMapSequenceV"
+- !private "s12LazySequenceV"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "So24UIGestureRecognizerStateV"
+- !private "Sx"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So18UIFocusEnvironmentP"
+- "So20UIFocusItemContainerP"
+- "So19UIGestureRecognizerC"
+- "So10UIKeyInputP"
+- "So17UITextInputTraitsP"
+- !private "So7UITouchC"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxGesture/RxGesture-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxGesture.build/unextended-module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "912c993b67bbbcc4041a223ad405d9de"

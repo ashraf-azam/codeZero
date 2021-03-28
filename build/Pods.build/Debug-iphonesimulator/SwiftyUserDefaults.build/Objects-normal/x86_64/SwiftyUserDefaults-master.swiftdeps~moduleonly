@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "57e491ff91927422f10fb005cb1b15b3"
+build_time: [1616943409, 459273000]
+inputs:
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/SwiftyUserDefaults/Sources/Defaults+Observing.swift": [1616943385, 93998692]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/SwiftyUserDefaults/Sources/Defaults+StringToBool.swift": [1616943385, 91876150]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/SwiftyUserDefaults/Sources/Defaults+Subscripts.swift": [1616943385, 93535436]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/SwiftyUserDefaults/Sources/Defaults.swift": [1616943385, 96316870]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/SwiftyUserDefaults/Sources/DefaultsBridges.swift": [1616943385, 93167712]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/SwiftyUserDefaults/Sources/DefaultsKeys.swift": [1616943385, 92319206]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/SwiftyUserDefaults/Sources/DefaultsObserver.swift": [1616943385, 94580255]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/SwiftyUserDefaults/Sources/DefaultsSerializable+BuiltIns.swift": [1616943385, 95060890]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/SwiftyUserDefaults/Sources/DefaultsSerializable.swift": [1616943385, 95991528]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/SwiftyUserDefaults/Sources/OptionalType.swift": [1616943385, 95548418]

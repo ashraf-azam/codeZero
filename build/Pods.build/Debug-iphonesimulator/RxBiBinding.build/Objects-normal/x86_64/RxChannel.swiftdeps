@@ -1,0 +1,461 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "<->"
+- "<->"
+- "<->"
+- "<->"
+- "RxChannel"
+provides-nominal:
+- "11RxBiBinding0A7ChannelC"
+provides-member:
+- ["11RxBiBinding0A7ChannelC", ""]
+- ["11RxBiBinding0A7ChannelC", "init"]
+- ["11RxBiBinding0A7ChannelC", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- "&"
+- "<->"
+- "=="
+- !private "AnyObservableType"
+- !private "AnyObserver"
+- "AssignmentPrecedence"
+- "BehaviorRelay"
+- "BooleanLiteralType"
+- !private "CompositeDisposable"
+- "ControlProperty"
+- "DefaultPrecedence"
+- "Disposable"
+- !private "Disposables"
+- "DisposeBag"
+- "E"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSObject"
+- !private "ReplaySubject"
+- "RxChannel"
+- "RxChannelTerminal"
+- "String"
+depends-member:
+- !private ["11RxBiBinding17AnyObservableTypeC", "init"]
+- !private ["7RxSwift11AnyObserverV", "init"]
+- !private ["7RxRelay08BehaviorB0C", "accept"]
+- !private ["7RxRelay08BehaviorB0C", "asObservable"]
+- !private ["s7CVarArgP", "AnyObservableType"]
+- !private ["s7CVarArgP", "AnyObserver"]
+- !private ["s7CVarArgP", "CompositeDisposable"]
+- !private ["s7CVarArgP", "Disposables"]
+- ["s7CVarArgP", "DisposeBag"]
+- !private ["s7CVarArgP", "ReplaySubject"]
+- !private ["s7CVarArgP", "RxChannelTerminal"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "bind"]
+- ["s7CVarArgP", "dispose"]
+- !private ["s7CVarArgP", "disposeBag"]
+- !private ["s7CVarArgP", "followingTerminal"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSkippingNextUpdate"]
+- !private ["s7CVarArgP", "leadingTerminal"]
+- !private ["s7CVarArgP", "onCompleted"]
+- !private ["s7CVarArgP", "onNext"]
+- !private ["s7CVarArgP", "skip"]
+- !private ["s7CVarArgP", "subscribe"]
+- !private ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift19CompositeDisposableC", "init"]
+- !private ["7RxCocoa15ControlPropertyV", "do"]
+- !private ["7RxCocoa15ControlPropertyV", "onNext"]
+- !private ["7RxCocoa15ControlPropertyV", "subscribe"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "do"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "onNext"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "subscribe"]
+- !private ["s28CustomDebugStringConvertibleP", "AnyObservableType"]
+- !private ["s28CustomDebugStringConvertibleP", "AnyObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "CompositeDisposable"]
+- !private ["s28CustomDebugStringConvertibleP", "Disposables"]
+- ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "ReplaySubject"]
+- !private ["s28CustomDebugStringConvertibleP", "RxChannelTerminal"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "bind"]
+- ["s28CustomDebugStringConvertibleP", "dispose"]
+- !private ["s28CustomDebugStringConvertibleP", "disposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "followingTerminal"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSkippingNextUpdate"]
+- !private ["s28CustomDebugStringConvertibleP", "leadingTerminal"]
+- !private ["s28CustomDebugStringConvertibleP", "onCompleted"]
+- !private ["s28CustomDebugStringConvertibleP", "onNext"]
+- !private ["s28CustomDebugStringConvertibleP", "skip"]
+- !private ["s28CustomDebugStringConvertibleP", "subscribe"]
+- !private ["s23CustomStringConvertibleP", "AnyObservableType"]
+- !private ["s23CustomStringConvertibleP", "AnyObserver"]
+- !private ["s23CustomStringConvertibleP", "CompositeDisposable"]
+- !private ["s23CustomStringConvertibleP", "Disposables"]
+- ["s23CustomStringConvertibleP", "DisposeBag"]
+- !private ["s23CustomStringConvertibleP", "ReplaySubject"]
+- !private ["s23CustomStringConvertibleP", "RxChannelTerminal"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "bind"]
+- ["s23CustomStringConvertibleP", "dispose"]
+- !private ["s23CustomStringConvertibleP", "disposeBag"]
+- !private ["s23CustomStringConvertibleP", "followingTerminal"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSkippingNextUpdate"]
+- !private ["s23CustomStringConvertibleP", "leadingTerminal"]
+- !private ["s23CustomStringConvertibleP", "onCompleted"]
+- !private ["s23CustomStringConvertibleP", "onNext"]
+- !private ["s23CustomStringConvertibleP", "skip"]
+- !private ["s23CustomStringConvertibleP", "subscribe"]
+- !private ["7RxSwift10DisposableP", "AnyObservableType"]
+- !private ["7RxSwift10DisposableP", "AnyObserver"]
+- !private ["7RxSwift10DisposableP", "CompositeDisposable"]
+- !private ["7RxSwift10DisposableP", "Disposables"]
+- ["7RxSwift10DisposableP", "DisposeBag"]
+- !private ["7RxSwift10DisposableP", "ReplaySubject"]
+- !private ["7RxSwift10DisposableP", "RxChannelTerminal"]
+- ["7RxSwift10DisposableP", ""]
+- !private ["7RxSwift10DisposableP", "create"]
+- ["7RxSwift10DisposableP", "dispose"]
+- !private ["7RxSwift10DisposableP", "disposeBag"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- !private ["7RxSwift10DisposableP", "followingTerminal"]
+- !private ["7RxSwift10DisposableP", "ignoreElements"]
+- !private ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "isSkippingNextUpdate"]
+- !private ["7RxSwift10DisposableP", "leadingTerminal"]
+- !private ["7RxSwift10DisposableP", "onCompleted"]
+- !private ["7RxSwift10DisposableP", "onError"]
+- !private ["7RxSwift11DisposablesV", "create"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", ""]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SQ", "AnyObservableType"]
+- !private ["SQ", "AnyObserver"]
+- !private ["SQ", "CompositeDisposable"]
+- !private ["SQ", "Disposables"]
+- ["SQ", "DisposeBag"]
+- !private ["SQ", "ReplaySubject"]
+- !private ["SQ", "RxChannelTerminal"]
+- ["SQ", ""]
+- !private ["SQ", "bind"]
+- ["SQ", "dispose"]
+- !private ["SQ", "disposeBag"]
+- !private ["SQ", "followingTerminal"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isSkippingNextUpdate"]
+- !private ["SQ", "leadingTerminal"]
+- !private ["SQ", "onCompleted"]
+- !private ["SQ", "onNext"]
+- !private ["SQ", "skip"]
+- !private ["SQ", "subscribe"]
+- !private ["SH", "AnyObservableType"]
+- !private ["SH", "AnyObserver"]
+- !private ["SH", "CompositeDisposable"]
+- !private ["SH", "Disposables"]
+- ["SH", "DisposeBag"]
+- !private ["SH", "ReplaySubject"]
+- !private ["SH", "RxChannelTerminal"]
+- ["SH", ""]
+- !private ["SH", "bind"]
+- ["SH", "dispose"]
+- !private ["SH", "disposeBag"]
+- !private ["SH", "followingTerminal"]
+- !private ["SH", "init"]
+- !private ["SH", "isSkippingNextUpdate"]
+- !private ["SH", "leadingTerminal"]
+- !private ["SH", "onCompleted"]
+- !private ["SH", "onNext"]
+- !private ["SH", "skip"]
+- !private ["SH", "subscribe"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "&"]
+- !private ["So8NSObjectC", "AnyObservableType"]
+- !private ["So8NSObjectC", "AnyObserver"]
+- ["So8NSObjectC", "BehaviorRelay"]
+- !private ["So8NSObjectC", "CompositeDisposable"]
+- ["So8NSObjectC", "ControlProperty"]
+- ["So8NSObjectC", "Disposable"]
+- !private ["So8NSObjectC", "Disposables"]
+- ["So8NSObjectC", "DisposeBag"]
+- !private ["So8NSObjectC", "ReplaySubject"]
+- ["So8NSObjectC", "RxChannel"]
+- ["So8NSObjectC", "RxChannelTerminal"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "bind"]
+- ["So8NSObjectC", "dispose"]
+- ["So8NSObjectC", "disposeBag"]
+- ["So8NSObjectC", "followingTerminal"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isSkippingNextUpdate"]
+- ["So8NSObjectC", "keyPath"]
+- ["So8NSObjectC", "leadingTerminal"]
+- !private ["So8NSObjectC", "onCompleted"]
+- !private ["So8NSObjectC", "onNext"]
+- !private ["So8NSObjectC", "skip"]
+- !private ["So8NSObjectC", "subscribe"]
+- ["So8NSObjectC", "target"]
+- ["So8NSObjectP", "&"]
+- !private ["So8NSObjectP", "AnyObservableType"]
+- !private ["So8NSObjectP", "AnyObserver"]
+- ["So8NSObjectP", "BehaviorRelay"]
+- !private ["So8NSObjectP", "CompositeDisposable"]
+- ["So8NSObjectP", "ControlProperty"]
+- ["So8NSObjectP", "Disposable"]
+- !private ["So8NSObjectP", "Disposables"]
+- ["So8NSObjectP", "DisposeBag"]
+- !private ["So8NSObjectP", "ReplaySubject"]
+- ["So8NSObjectP", "RxChannel"]
+- ["So8NSObjectP", "RxChannelTerminal"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "bind"]
+- ["So8NSObjectP", "dispose"]
+- ["So8NSObjectP", "disposeBag"]
+- ["So8NSObjectP", "followingTerminal"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isSkippingNextUpdate"]
+- ["So8NSObjectP", "keyPath"]
+- ["So8NSObjectP", "leadingTerminal"]
+- !private ["So8NSObjectP", "onCompleted"]
+- !private ["So8NSObjectP", "onNext"]
+- !private ["So8NSObjectP", "skip"]
+- !private ["So8NSObjectP", "subscribe"]
+- ["So8NSObjectP", "target"]
+- ["7RxSwift10ObservableC", ""]
+- !private ["7RxSwift10ObservableC", "bind"]
+- !private ["7RxSwift10ObservableC", "create"]
+- !private ["7RxSwift10ObservableC", "do"]
+- !private ["7RxSwift10ObservableC", "ignoreElements"]
+- !private ["7RxSwift10ObservableC", "onCompleted"]
+- !private ["7RxSwift10ObservableC", "onError"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "Element"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "accept"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "bind"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "create"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "do"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "ignoreElements"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "onCompleted"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "onError"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "onNext"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "skip"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "Element"]
+- !private ["7RxSwift14ObservableTypeP", ""]
+- !private ["7RxSwift14ObservableTypeP", "accept"]
+- !private ["7RxSwift14ObservableTypeP", "asObservable"]
+- !private ["7RxSwift14ObservableTypeP", "bind"]
+- !private ["7RxSwift14ObservableTypeP", "create"]
+- !private ["7RxSwift14ObservableTypeP", "do"]
+- !private ["7RxSwift14ObservableTypeP", "ignoreElements"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "onCompleted"]
+- !private ["7RxSwift14ObservableTypeP", "onError"]
+- !private ["7RxSwift14ObservableTypeP", "onNext"]
+- !private ["7RxSwift14ObservableTypeP", "skip"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift12ObserverTypeP", "Element"]
+- !private ["7RxSwift12ObserverTypeP", ""]
+- !private ["7RxSwift12ObserverTypeP", "bind"]
+- !private ["7RxSwift12ObserverTypeP", "create"]
+- !private ["7RxSwift12ObserverTypeP", "do"]
+- !private ["7RxSwift12ObserverTypeP", "ignoreElements"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- !private ["7RxSwift12ObserverTypeP", "onCompleted"]
+- !private ["7RxSwift12ObserverTypeP", "onError"]
+- !private ["7RxSwift12ObserverTypeP", "onNext"]
+- !private ["7RxSwift12ObserverTypeP", "skip"]
+- !private ["7RxSwift12ObserverTypeP", "subscribe"]
+- !private ["7RxSwift17PrimitiveSequenceV", "subscribe"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "subscribe"]
+- !private ["7RxSwift18ReactiveCompatibleP", "AnyObservableType"]
+- !private ["7RxSwift18ReactiveCompatibleP", "AnyObserver"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CompositeDisposable"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Disposables"]
+- ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "ReplaySubject"]
+- !private ["7RxSwift18ReactiveCompatibleP", "RxChannelTerminal"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "bind"]
+- ["7RxSwift18ReactiveCompatibleP", "dispose"]
+- !private ["7RxSwift18ReactiveCompatibleP", "disposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "followingTerminal"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isSkippingNextUpdate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "leadingTerminal"]
+- !private ["7RxSwift18ReactiveCompatibleP", "onCompleted"]
+- !private ["7RxSwift18ReactiveCompatibleP", "onNext"]
+- !private ["7RxSwift18ReactiveCompatibleP", "skip"]
+- !private ["7RxSwift18ReactiveCompatibleP", "subscribe"]
+- !private ["7RxSwift13ReplaySubjectC", "create"]
+- !private ["7RxSwift13ReplaySubjectC", "ignoreElements"]
+- !private ["7RxSwift13ReplaySubjectC", "onCompleted"]
+- !private ["7RxSwift13ReplaySubjectC", "onError"]
+- !private ["11RxBiBinding0A7ChannelC", "&"]
+- !private ["11RxBiBinding0A7ChannelC", "AnyObservableType"]
+- !private ["11RxBiBinding0A7ChannelC", "AnyObserver"]
+- ["11RxBiBinding0A7ChannelC", "BehaviorRelay"]
+- !private ["11RxBiBinding0A7ChannelC", "CompositeDisposable"]
+- ["11RxBiBinding0A7ChannelC", "ControlProperty"]
+- ["11RxBiBinding0A7ChannelC", "Disposable"]
+- !private ["11RxBiBinding0A7ChannelC", "Disposables"]
+- ["11RxBiBinding0A7ChannelC", "DisposeBag"]
+- !private ["11RxBiBinding0A7ChannelC", "ReplaySubject"]
+- ["11RxBiBinding0A7ChannelC", "RxChannel"]
+- ["11RxBiBinding0A7ChannelC", "RxChannelTerminal"]
+- ["11RxBiBinding0A7ChannelC", "String"]
+- ["11RxBiBinding0A7ChannelC", ""]
+- ["11RxBiBinding0A7ChannelC", "deinit"]
+- ["11RxBiBinding0A7ChannelC", "dispose"]
+- !private ["11RxBiBinding0A7ChannelC", "disposeBag"]
+- ["11RxBiBinding0A7ChannelC", "followingTerminal"]
+- ["11RxBiBinding0A7ChannelC", "init"]
+- !private ["11RxBiBinding0A7ChannelC", "isSkippingNextUpdate"]
+- !private ["11RxBiBinding0A7ChannelC", "keyPath"]
+- ["11RxBiBinding0A7ChannelC", "leadingTerminal"]
+- !private ["11RxBiBinding0A7ChannelC", "target"]
+- !private ["11RxBiBinding0A15ChannelTerminalC", ""]
+- !private ["11RxBiBinding0A15ChannelTerminalC", "bind"]
+- !private ["11RxBiBinding0A15ChannelTerminalC", "init"]
+- !private ["11RxBiBinding0A15ChannelTerminalC", "onCompleted"]
+- !private ["11RxBiBinding0A15ChannelTerminalC", "onNext"]
+- !private ["11RxBiBinding0A15ChannelTerminalC", "skip"]
+- !private ["11RxBiBinding0A15ChannelTerminalC", "subscribe"]
+- !private ["7RxSwift11SubjectTypeP", "create"]
+- !private ["7RxSwift11SubjectTypeP", "ignoreElements"]
+- !private ["7RxSwift11SubjectTypeP", "onCompleted"]
+- !private ["7RxSwift11SubjectTypeP", "onError"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AnyObservableType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AnyObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CompositeDisposable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Disposables"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReplaySubject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RxChannelTerminal"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bind"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dispose"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "followingTerminal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSkippingNextUpdate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leadingTerminal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onCompleted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onNext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "skip"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscribe"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AnyObservableType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AnyObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CompositeDisposable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Disposables"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DisposeBag"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ReplaySubject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RxChannelTerminal"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bind"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dispose"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "disposeBag"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "followingTerminal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isSkippingNextUpdate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leadingTerminal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onCompleted"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onNext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "skip"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subscribe"]
+depends-nominal:
+- !private "11RxBiBinding17AnyObservableTypeC"
+- !private "7RxSwift11AnyObserverV"
+- !private "7RxRelay08BehaviorB0C"
+- "s7CVarArgP"
+- !private "7RxSwift10CancelableP"
+- !private "7RxSwift19CompositeDisposableC"
+- !private "7RxCocoa15ControlPropertyV"
+- !private "7RxCocoa19ControlPropertyTypeP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7RxSwift10DisposableP"
+- !private "7RxSwift11DisposablesV"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- !private "7RxSwift17PrimitiveSequenceV"
+- !private "7RxSwift21PrimitiveSequenceTypeP"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "7RxSwift13ReplaySubjectC"
+- "11RxBiBinding0A7ChannelC"
+- !private "11RxBiBinding0A15ChannelTerminalC"
+- !private "7RxSwift11SubjectTypeP"
+- "So18UIFocusEnvironmentP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxBiBinding/RxBiBinding-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxBiBinding.build/unextended-module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c70b04ce819424ec8f40773a76ec73b7"

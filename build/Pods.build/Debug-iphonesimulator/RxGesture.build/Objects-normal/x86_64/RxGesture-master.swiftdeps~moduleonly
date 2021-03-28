@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "79acbc94df5ba4094815374a78938c40"
+build_time: [1616943451, 57046000]
+inputs:
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/iOS/ForceTouchGestureRecognizer.swift": [1616895837, 420717642]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/GestureFactory.swift": [1616895837, 397442631]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/GestureRecognizer+RxGesture.swift": [1616895837, 447068937]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/RxGestureRecognizerDelegate.swift": [1616895837, 398176585]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/SharedTypes.swift": [1616895837, 447642706]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/iOS/TouchDownGestureRecognizer.swift": [1616895837, 399174799]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/iOS/TransformGestureRecognizers.swift": [1616895837, 400283489]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/iOS/UILongPressGestureRecognizer+RxGesture.swift": [1616895837, 440062934]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/iOS/UIPanGestureRecognizer+RxGesture.swift": [1616895837, 445112711]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/iOS/UIPinchGestureRecognizer+RxGesture.swift": [1616895837, 403216076]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/iOS/UIRotationGestureRecognizer+RxGesture.swift": [1616895837, 412251014]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/iOS/UIScreenEdgePanGestureRecognizer+RxGesture.swift": [1616895837, 401038639]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/iOS/UISwipeGestureRecognizer+RxGesture.swift": [1616895837, 399693010]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/iOS/UITapGestureRecognizer+RxGesture.swift": [1616895837, 431326386]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxGesture/Pod/Classes/View+RxGesture.swift": [1616895837, 448203886]

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "6716cc04bbca035a8da43b64ab029676"
+build_time: [1616943427, 732367000]
+inputs:
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/CodableExtensions/Classes/CodableExtensions.swift": [1616943385, 80025480]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/CodableExtensions/Classes/DecodingContainerTransformer.swift": [1616943385, 80310580]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/CodableExtensions/Classes/RegexCodeableTransformer.swift": [1616943385, 80785618]

@@ -1,0 +1,10 @@
+framework module RxGesture {
+  umbrella header "RxGesture-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module RxGesture.__Swift {
+    exclude header "RxGesture-Swift.h"
+}

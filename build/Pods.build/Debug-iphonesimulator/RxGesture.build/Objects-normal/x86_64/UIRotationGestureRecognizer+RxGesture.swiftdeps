@@ -1,0 +1,159 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RotationConfiguration"
+- "RotationControlEvent"
+- "RotationObservable"
+provides-nominal:
+provides-member:
+- ["9RxGesture7FactoryV", ""]
+- ["7RxSwift8ReactiveV", ""]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["9RxGesture7FactoryV", "rotation"]
+- ["7RxSwift8ReactiveV", "rotationGesture"]
+- ["7RxSwift14ObservableTypeP", "asRotation"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyFactory"
+- "Base"
+- "CGFloat"
+- "Configuration"
+- "ControlEvent"
+- "Element"
+- "Factory"
+- "Gesture"
+- "GestureRecognizer"
+- "Observable"
+- "ObservableType"
+- "Reactive"
+- "RotationConfiguration"
+- "RotationControlEvent"
+- "RotationObservable"
+- "UIRotationGestureRecognizer"
+- "View"
+- !private "gesture"
+- !private "make"
+depends-member:
+- !private ["s7CVarArgP", "rotation"]
+- !private ["s7CVarArgP", "velocity"]
+- !private ["s28CustomDebugStringConvertibleP", "rotation"]
+- !private ["s28CustomDebugStringConvertibleP", "velocity"]
+- !private ["s23CustomStringConvertibleP", "rotation"]
+- !private ["s23CustomStringConvertibleP", "velocity"]
+- !private ["SQ", ""]
+- !private ["SQ", "rotation"]
+- !private ["SQ", "velocity"]
+- ["9RxGesture7FactoryV", "AnyFactory"]
+- ["9RxGesture7FactoryV", "GestureRecognizer"]
+- ["9RxGesture7FactoryV", "RotationConfiguration"]
+- ["9RxGesture7FactoryV", ""]
+- !private ["9RxGesture7FactoryV", "abstracted"]
+- !private ["9RxGesture7FactoryV", "make"]
+- ["9RxGesture7FactoryV", "rotation"]
+- !private ["SH", "rotation"]
+- !private ["SH", "velocity"]
+- !private ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "rotation"]
+- !private ["So8NSObjectC", "velocity"]
+- !private ["So8NSObjectP", "rotation"]
+- !private ["So8NSObjectP", "velocity"]
+- ["7RxSwift25ObservableConvertibleTypeP", "CGFloat"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Element"]
+- ["7RxSwift25ObservableConvertibleTypeP", "Observable"]
+- ["7RxSwift25ObservableConvertibleTypeP", "UIRotationGestureRecognizer"]
+- ["7RxSwift25ObservableConvertibleTypeP", ""]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- ["7RxSwift14ObservableTypeP", "CGFloat"]
+- ["7RxSwift14ObservableTypeP", "Element"]
+- ["7RxSwift14ObservableTypeP", "Observable"]
+- ["7RxSwift14ObservableTypeP", "UIRotationGestureRecognizer"]
+- ["7RxSwift14ObservableTypeP", ""]
+- ["7RxSwift14ObservableTypeP", "asRotation"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- ["7RxSwift8ReactiveV", "RotationConfiguration"]
+- ["7RxSwift8ReactiveV", "RotationControlEvent"]
+- ["7RxSwift8ReactiveV", "View"]
+- ["7RxSwift8ReactiveV", ""]
+- !private ["7RxSwift8ReactiveV", "gesture"]
+- !private ["7RxSwift8ReactiveV", "make"]
+- ["7RxSwift8ReactiveV", "rotationGesture"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rotation"]
+- !private ["7RxSwift18ReactiveCompatibleP", "velocity"]
+- ["So19UIGestureRecognizerC", ""]
+- !private ["So19UIGestureRecognizerC", "rotation"]
+- !private ["So19UIGestureRecognizerC", "velocity"]
+- !private ["So27UIRotationGestureRecognizerC", "rotation"]
+- !private ["So27UIRotationGestureRecognizerC", "velocity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rotation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "velocity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rotation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "velocity"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- "9RxGesture7FactoryV"
+- !private "SH"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift8ReactiveV"
+- !private "7RxSwift18ReactiveCompatibleP"
+- "So19UIGestureRecognizerC"
+- !private "So27UIRotationGestureRecognizerC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/WebKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxGesture/RxGesture-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/RxRelay/RxRelay-umbrella.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxGesture.build/unextended-module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/RxRelay.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "146f7cdd00c001952f63415168127380"

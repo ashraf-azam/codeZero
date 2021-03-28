@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>814886430772-9uqls4b3h7l7botvkqdtolsg3ql869he.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.814886430772-9uqls4b3h7l7botvkqdtolsg3ql869he</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC2_ggt531-CwcW5pTfZ6qxFhSg1HBh_4A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>814886430772</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ashraf.azam.CodeZeroTest</string>
+	<key>PROJECT_ID</key>
+	<string>codezero-d055b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>codezero-d055b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:814886430772:ios:4b500b204820a94afd8261</string>
+</dict>
+</plist>

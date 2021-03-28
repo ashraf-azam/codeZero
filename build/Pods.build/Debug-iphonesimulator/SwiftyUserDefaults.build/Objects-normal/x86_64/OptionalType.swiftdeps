@@ -1,0 +1,107 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OptionalType"
+provides-nominal:
+- "18SwiftyUserDefaults12OptionalTypeP"
+- "Sq"
+provides-member:
+- ["18SwiftyUserDefaults12OptionalTypeP", ""]
+- ["Sq", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Optional"
+- "OptionalType"
+- "Wrapped"
+depends-member:
+- ["s28CustomDebugStringConvertibleP", "Default_Wrapped"]
+- ["s28CustomDebugStringConvertibleP", "Wrapped"]
+- ["s28CustomDebugStringConvertibleP", "_Default_Wrapped"]
+- ["s28CustomDebugStringConvertibleP", "wrapped"]
+- ["s17CustomReflectableP", "Default_Wrapped"]
+- ["s17CustomReflectableP", "Wrapped"]
+- ["s17CustomReflectableP", "_Default_Wrapped"]
+- ["s17CustomReflectableP", "wrapped"]
+- ["Se", "Default_Wrapped"]
+- ["Se", "Wrapped"]
+- ["Se", "_Default_Wrapped"]
+- ["Se", "wrapped"]
+- ["18SwiftyUserDefaults0C12SerializableP", "Default_Wrapped"]
+- ["18SwiftyUserDefaults0C12SerializableP", "Wrapped"]
+- ["18SwiftyUserDefaults0C12SerializableP", "_Default_Wrapped"]
+- ["18SwiftyUserDefaults0C12SerializableP", "wrapped"]
+- ["SE", "Default_Wrapped"]
+- ["SE", "Wrapped"]
+- ["SE", "_Default_Wrapped"]
+- ["SE", "wrapped"]
+- ["SQ", "Default_Wrapped"]
+- ["SQ", "Wrapped"]
+- ["SQ", ""]
+- ["SQ", "_Default_Wrapped"]
+- ["SQ", "wrapped"]
+- ["s23ExpressibleByNilLiteralP", "Default_Wrapped"]
+- ["s23ExpressibleByNilLiteralP", "Wrapped"]
+- ["s23ExpressibleByNilLiteralP", "_Default_Wrapped"]
+- ["s23ExpressibleByNilLiteralP", "wrapped"]
+- ["SH", "Default_Wrapped"]
+- ["SH", "Wrapped"]
+- ["SH", "_Default_Wrapped"]
+- ["SH", "wrapped"]
+- ["Sq", "Default_Wrapped"]
+- ["Sq", "Wrapped"]
+- ["Sq", ""]
+- ["Sq", "_Default_Wrapped"]
+- ["Sq", "wrapped"]
+- ["18SwiftyUserDefaults12OptionalTypeP", "Default_Wrapped"]
+- ["18SwiftyUserDefaults12OptionalTypeP", "Wrapped"]
+- ["18SwiftyUserDefaults12OptionalTypeP", ""]
+- ["18SwiftyUserDefaults12OptionalTypeP", "_Default_Wrapped"]
+- ["18SwiftyUserDefaults12OptionalTypeP", "wrapped"]
+- ["s21_ObjectiveCBridgeableP", "Default_Wrapped"]
+- ["s21_ObjectiveCBridgeableP", "Wrapped"]
+- ["s21_ObjectiveCBridgeableP", "_Default_Wrapped"]
+- ["s21_ObjectiveCBridgeableP", "wrapped"]
+depends-nominal:
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "Se"
+- "18SwiftyUserDefaults0C12SerializableP"
+- "SE"
+- "SQ"
+- "s23ExpressibleByNilLiteralP"
+- "SH"
+- "Sq"
+- "18SwiftyUserDefaults12OptionalTypeP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/Target Support Files/SwiftyUserDefaults/SwiftyUserDefaults-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/hisb-ashraf/Desktop/CodeZeroTest/build/Pods.build/Debug-iphonesimulator/SwiftyUserDefaults.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "36080fa7f622bbbf698580fe4a45e97a"

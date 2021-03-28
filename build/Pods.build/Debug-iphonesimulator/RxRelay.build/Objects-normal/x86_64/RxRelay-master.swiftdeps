@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "c060bbe42c01c53eba8892f3dc4bacb7"
+build_time: [1616943444, 246976000]
+inputs:
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1616895837, 458786572]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1616895837, 457673388]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxRelay/RxRelay/PublishRelay.swift": [1616895837, 456226464]
+  "/Users/hisb-ashraf/Desktop/CodeZeroTest/Pods/RxRelay/RxRelay/Utils.swift": [1616895837, 458293505]
