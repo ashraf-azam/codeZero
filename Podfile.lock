@@ -101,6 +101,7 @@ PODS:
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - SwiftDate (6.1.0)
   - SwifterSwift (4.6.0):
     - SwifterSwift/AppKit (= 4.6.0)
     - SwifterSwift/CoreGraphics (= 4.6.0)
@@ -134,6 +135,7 @@ DEPENDENCIES:
   - RxDataSources (~> 4.0.1)
   - RxGesture (~> 3.0.0)
   - RxSwift (~> 5.1.1)
+  - SwiftDate (~> 6.1.0)
   - SwifterSwift (~> 4.6.0)
   - SwiftyUserDefaults (= 4.0.0-beta.2)
 
@@ -163,6 +165,7 @@ SPEC REPOS:
     - RxGesture
     - RxRelay
     - RxSwift
+    - SwiftDate
     - SwifterSwift
     - SwiftyUserDefaults
 
@@ -201,9 +204,10 @@ SPEC CHECKSUMS:
   RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
   SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
   SwiftyUserDefaults: 39ec70433f22f3052a64bc5fbfb34f46932b8bf1
 
-PODFILE CHECKSUM: f801f5d9767d14622fabafe3015900018cd90c26
+PODFILE CHECKSUM: 561acceb0a342ef195977725e3029ea18bb1fcf7
 
 COCOAPODS: 1.10.0

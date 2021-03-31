@@ -20,6 +20,7 @@ target 'CodeZeroTest' do
 
   # Utility
   pod 'SwifterSwift', '~> 4.6.0'
+  pod 'SwiftDate', '~> 6.1.0'
 
   # Network
   pod 'Firebase/Analytics'

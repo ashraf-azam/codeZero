@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import Kingfisher
+import SwiftDate
 
 class CardCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var wholeBackgroundView: UIView!
@@ -72,10 +73,23 @@ class CardCollectionViewCell: UICollectionViewCell {
         self.bigImageView.kf.setImage(with: cardImg, placeholder: placeholder, options: nil, progressBlock: nil) { (_) in
         }
         self.descOccupationLabel.text = occupation
-        self.descDateLabel.text = dateTime
         self.descDescriptionLabel.text = cardDesc
         self.starLabelCount.text = starCount
         self.levelLabelCount.text = levelCount
         self.eyeLabelCount.text = eyeCount
+        
+        let timeStamp = Double(dateTime) ?? 0
+        self.getDateFromTimeStamp(timeStamp: timeStamp)
+    }
+    
+    func getDateFromTimeStamp(timeStamp : Double) -> String {
+        let date = NSDate(timeIntervalSince1970: timeStamp)
+        
+        let dayTimePeriodFormatter = DateFormatter()
+        dayTimePeriodFormatter.dateFormat = "dd MMM YYYY"
+        
+        let dateString = dayTimePeriodFormatter.string(from: date as Date)
+        self.descDateLabel.text = dateString
+        return dateString
     }
 }

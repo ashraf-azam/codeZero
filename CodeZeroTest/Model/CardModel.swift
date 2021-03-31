@@ -8,86 +8,144 @@
 import Foundation
 import Firebase
 
-struct CardList: Codable {
-    var cardName: String = ""
-    var cardImage: String = ""
-    var cardProfileImage: String = ""
-    var cardOccupation: String = ""
-    var cardDateTime: String = ""
-    var cardDescription: String = ""
-    var cardStarCount: String = ""
-    var cardLevelCount: String = ""
-    var cardEyeCount: String = ""
-    var cardColour: APPApi.Enum.EnumCardColour = .cyan
-
+struct ResponseData: Decodable {
+    var response_data: [CardList]
+    
     enum CodingKeys:String,CodingKey{
-        case cardName = "cardName"
-        case cardImage = "cardImage"
-        case cardProfileImage = "cardProfileImage"
-        case cardOccupation = "cardOccupation"
-        case cardDateTime = "voucherprice"
-        case cardDescription = "cardDescription"
-        case cardStarCount = "cardStarCount"
-        case cardLevelCount = "cardLevelCount"
-        case cardEyeCount = "cardEyeCount"
-        case cardColour
+        case response_data = "data"
     }
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        self.cardName = try container.decode(String.self, forKey: .cardName)
-        self.cardImage = try container.decode(String.self, forKey: .cardImage)
-        self.cardProfileImage = try container.decode(String.self, forKey: .cardProfileImage)
-        self.cardOccupation = try container.decode(String.self, forKey: .cardOccupation)
-        self.cardDateTime = try container.decode(String.self, forKey: .cardDateTime)
-        self.cardDescription = try container.decode(String.self, forKey: .cardDescription)
-        self.cardStarCount = try container.decode(String.self, forKey: .cardStarCount)
-        self.cardLevelCount = try container.decode(String.self, forKey: .cardLevelCount)
-        self.cardEyeCount = try container.decode(String.self, forKey: .cardEyeCount)
-        if let tempColour = try container.decodeIfPresent(String.self, forKey: .cardColour).map({ (string) -> APPApi.Enum.EnumCardColour in
-                return APPApi.Enum.EnumCardColour(rawValue: string.lowercased()) ??  APPApi.Enum.EnumCardColour.cyan}) {
-            cardColour = tempColour
-        }
+        self.response_data = try container.decode([CardList].self, forKey: .response_data)
+    }
+}
+
+struct CardList: Codable {
+    var id: Int64
+    var card_id: Int64
+    var user_id: Int64
+    var timestamp: String = ""
+    var type: String = ""
+    var name: String = ""
+    var icon: String = ""
+    var description: String = ""
+    var color: Color
+    var email: String?
+    var background_url: String = ""
+    var background_type: Int
+    var background_width: Int?
+    var background_height: Int?
+    var co_name: String?
+    var co_icon: String?
+    var liked: Bool
+    var viewed: Bool
+    var shared: Bool
+    var like_count: Int
+    var view_count: Int
+    var share_count: Int
+    var body: String = ""
+    var branch_address: String?
+    var branch_contact: String?
+    var updated_at: UpdatedAt
+
+    enum CodingKeys:String,CodingKey{
+        case id = "id"
+        case card_id = "card_id"
+        case user_id = "user_id"
+        case timestamp = "timestamp"
+        case type = "type"
+        case name = "name"
+        case icon = "icon"
+        case description = "description"
+        case color = "color"
+        case email = "email"
+        case background_url = "background_url"
+        case background_type = "background_type"
+        case background_width = "background_width"
+        case background_height = "background_height"
+        case co_name = "co_name"
+        case co_icon = "co_icon"
+        case liked = "liked"
+        case viewed = "viewed"
+        case shared = "shared"
+        case like_count = "like_count"
+        case view_count = "view_count"
+        case share_count = "share_count"
+        case body = "body"
+        case branch_address = "branch_address"
+        case branch_contact = "branch_contact"
+        case updated_at = "updated_at"
     }
     
-    init(name: String, image: String, profileImage: String, occupation: String, dateTime: String, desc: String, starCount: String, levelCount: String, eyeCount: String, colour: APPApi.Enum.EnumCardColour) {
-        self.cardName = name
-        self.cardImage = image
-        self.cardProfileImage = profileImage
-        self.cardOccupation = occupation
-        self.cardDateTime = dateTime
-        self.cardDescription = desc
-        self.cardStarCount = starCount
-        self.cardLevelCount = levelCount
-        self.cardEyeCount = eyeCount
-        self.cardColour = colour
+    init(name: String, image: String, profileImage: String, occupation: String, starCount: String, levelCount: String, eyeCount: String, coName: String, color: Color, updatedAt: UpdatedAt) {
+        self.name = name
+        self.co_icon = image
+        self.icon = profileImage
+        self.description = occupation
+        self.id = 1
+        self.card_id = 1
+        self.user_id = 1
+        self.timestamp = name
+        self.type = name
+        self.color = color
+        self.email = name
+        self.background_url = name
+        self.background_type = 1
+        self.background_width = 1
+        self.background_height = 1
+        self.co_name = coName
+        self.liked = true
+        self.viewed = true
+        self.shared = true
+        self.like_count = 1
+        self.view_count = 2
+        self.share_count = 3
+        self.updated_at = updatedAt
+    }
+}
+
+struct Color: Codable {
+    var bar: Bar
+    
+    enum CodingKeys:String,CodingKey{
+        case bar = "bar"
     }
     
-    init?(snapshot: DataSnapshot) {
-        guard
-            let value = snapshot.value as? [String: AnyObject],
-            let cardName = value["cardName"] as? String,
-            let cardImage = value["cardImage"] as? String,
-            let cardProfileImage = value["cardProfileImage"] as? String,
-            let cardOccupation = value["cardOccupation"] as? String,
-            let cardDateTime = value["cardDateTime"] as? String,
-            let cardDescription = value["cardDescription"] as? String,
-            let cardStarCount = value["cardStarCount"] as? String,
-            let cardLevelCount = value["cardLevelCount"] as? String,
-            let cardEyeCount = value["cardEyeCount"] as? String,
-            let cardColour = value["cardColour"] as? String
-        else {
-            return nil
-        }
-        self.cardName = cardName
-        self.cardImage = cardImage
-        self.cardProfileImage = cardProfileImage
-        self.cardOccupation = cardOccupation
-        self.cardDateTime = cardDateTime
-        self.cardDescription = cardDescription
-        self.cardStarCount = cardStarCount
-        self.cardLevelCount = cardLevelCount
-        self.cardEyeCount = cardEyeCount
-        self.cardColour = APPApi.Enum.EnumCardColour(rawValue: cardColour) ?? APPApi.Enum.EnumCardColour(rawValue: "")!
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.bar = try container.decode(Bar.self, forKey: .bar)
+    }
+}
+
+struct Bar: Codable {
+    var bottom: String = ""
+    
+    enum CodingKeys:String,CodingKey{
+        case bottom = "bottom"
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.bottom = try container.decode(String.self, forKey: .bottom)
+    }
+}
+
+struct UpdatedAt: Codable {
+    var date: String = ""
+    var timezone: String = ""
+    var timezone_type: Int
+    
+    enum CodingKeys:String,CodingKey{
+        case date =  "date"
+        case timezone = "timezone"
+        case timezone_type = "timezone_type"
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.date = try container.decode(String.self, forKey: .date)
+        self.timezone = try container.decode(String.self, forKey: .timezone)
+        self.timezone_type = try container.decode(Int.self, forKey: .timezone_type)
     }
 }
